@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cpos:war" />
+      <artifact name="cpos:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e5c0dcb-7fa3-4d2f-8a6d-f4fa90fd870b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.6037575">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="goodsjs.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="282">
+                  <caret line="893" column="34" lean-forward="true" selection-start-line="893" selection-start-column="34" selection-end-line="893" selection-end-column="34" />
+                  <folding>
+                    <element signature="n#!!block;n#dosavenwi#0" expanded="false" />
+                    <element signature="n#!!block;n#deletetrs#0" expanded="false" />
+                    <element signature="n#!!block;n#gettableinfo#0" expanded="false" />
+                    <element signature="n#!!block;n#changetxbnum#0" expanded="false" />
+                    <element signature="n#!!block;n#isEmpty#0" expanded="false" />
+                    <element signature="n#!!block;n#tdclick#0" expanded="false" />
+                    <element signature="n#!!block;n#doaddnwi#0" expanded="false" />
+                    <element signature="n#!!block;n#deletetr#0" expanded="false" />
+                    <element signature="n#!!block;n#loadwareinvoicetab#0" expanded="false" />
+                    <element signature="n#!!block;n#loadslcwarecode#0" expanded="false" />
+                    <element signature="n#!!block;n#loadslcstorecode#0" expanded="false" />
+                    <element signature="n#!!block;n#loadquerystore#0" expanded="false" />
+                    <element signature="n#!!block;n#loadslcwimethod#0" expanded="false" />
+                    <element signature="n#!!block;n#doVerifyWareInvoices#0" expanded="false" />
+                    <element signature="n#!!block;n#loadslcstorewcode#0" expanded="false" />
+                    <element signature="n#!!block;n#loadtabstorerecipe#0" expanded="false" />
+                    <element signature="n#!!block;n#loadtabstorereverify#0" expanded="false" />
+                    <element signature="n#!!block;n#doStoreRecipe#0" expanded="false" />
+                    <element signature="n#!!block;n#doSRecipeVerify#0" expanded="false" />
+                    <element signature="n#!!block;n#doQueryStoreWare#0" expanded="false" />
+                    <element signature="n#!!block;n#doQueryAllStoreWare#0" expanded="false" />
+                    <element signature="n#!!block;n#tdclickd#0" expanded="false" />
+                    <element signature="n#!!block;n#changetxbdenum#0" expanded="false" />
+                    <element signature="n#!!block;n#deletetrd#0" expanded="false" />
+                    <element signature="n#!!block;n#deletedetrs#0" expanded="false" />
+                    <element signature="n#!!block;n#getdetableinfo#0" expanded="false" />
+                    <element signature="n#!!block;n#loadslcdeliverstorecode#0" expanded="false" />
+                    <element signature="n#!!block;n#loadslcdelivermethod#0" expanded="false" />
+                    <element signature="n#!!block;n#loadtabverifydeliver#0" expanded="false" />
+                    <marker date="1518342958203" expanded="true" signature="17579:17598" ph="..." />
+                    <marker date="1518342958203" expanded="true" signature="17667:17686" ph="..." />
+                    <marker date="1518342958203" expanded="true" signature="17755:17774" ph="..." />
+                    <marker date="1518342958203" expanded="true" signature="17843:17862" ph="..." />
+                    <marker date="1518342958203" expanded="true" signature="17931:17950" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="312">
+                  <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#1870#1871#0" expanded="true" />
+                    <element signature="e#1925#1926#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ResultInfo.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/ResultInfo.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gdstoredeliver.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="154" column="102" lean-forward="false" selection-start-line="154" selection-start-column="95" selection-end-line="154" selection-end-column="108" />
+                  <folding>
+                    <marker date="1518186594602" expanded="true" signature="16315:16330" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GoodsDao.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-93">
+                  <caret line="1221" column="62" lean-forward="false" selection-start-line="1221" selection-start-column="62" selection-end-line="1221" selection-end-column="62" />
+                  <folding>
+                    <element signature="method#getStoreGoods#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="method#getWareInvoiceTab#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="method#getGoodsStoreList#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="method#getGoodsWiMethodList#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="method#doVerifyBill#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="method#getStoreRecipeList#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#17418#17426#0" expanded="true" />
+                    <element signature="e#17481#17496#0" expanded="true" />
+                    <element signature="method#doVerifyRecipeBill#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#19967#19975#0" expanded="true" />
+                    <element signature="e#20032#20049#0" expanded="true" />
+                    <element signature="e#20888#20889#0" expanded="true" />
+                    <element signature="e#20954#20955#0" expanded="true" />
+                    <element signature="e#22107#22108#0" expanded="true" />
+                    <element signature="e#22173#22174#0" expanded="true" />
+                    <element signature="method#getStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#22700#22708#0" expanded="true" />
+                    <element signature="e#22765#22782#0" expanded="true" />
+                    <element signature="e#25456#25464#0" expanded="true" />
+                    <element signature="e#25581#25598#0" expanded="true" />
+                    <element signature="e#25654#25668#0" expanded="true" />
+                    <element signature="e#29707#29721#0" expanded="true" />
+                    <element signature="e#31535#31543#0" expanded="true" />
+                    <element signature="e#31597#31611#0" expanded="true" />
+                    <element signature="method#doPADRecipeConfirm#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#33172#33180#0" expanded="true" />
+                    <element signature="e#33635#33647#0" expanded="true" />
+                    <element signature="class#35334:36580" expanded="false" />
+                    <element signature="e#37470#37478#0" expanded="true" />
+                    <element signature="e#37535#37553#0" expanded="true" />
+                    <element signature="e#38090#38102#0" expanded="true" />
+                    <element signature="e#38567#39578#0" expanded="true" />
+                    <element signature="e#39577#39578#0" expanded="true" />
+                    <element signature="method#doRecipeBillGoods#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#42878#42886#0" expanded="true" />
+                    <element signature="e#43543#43544#0" expanded="true" />
+                    <element signature="e#43605#43606#0" expanded="true" />
+                    <element signature="e#43967#43968#0" expanded="true" />
+                    <element signature="e#44029#44030#0" expanded="true" />
+                    <element signature="method#doQueryStoreWare#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#44553#44561#0" expanded="true" />
+                    <element signature="e#44618#44636#0" expanded="true" />
+                    <element signature="method#getDeliverMethod#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#46790#46803#0" expanded="true" />
+                    <element signature="e#47510#47518#0" expanded="true" />
+                    <element signature="e#47637#47654#0" expanded="true" />
+                    <element signature="e#47719#47736#0" expanded="true" />
+                    <element signature="e#49247#49261#0" expanded="true" />
+                    <element signature="e#53223#53224#0" expanded="true" />
+                    <element signature="e#53286#53287#0" expanded="true" />
+                    <element signature="e#53799#53807#0" expanded="true" />
+                    <element signature="e#53864#53882#0" expanded="true" />
+                    <element signature="e#56135#56143#0" expanded="true" />
+                    <element signature="e#56200#56217#0" expanded="true" />
+                    <element signature="method#doVerifyDeliverBill#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="method#getNotesDeliverBill#0;class#GoodsDao#0" expanded="false" />
+                    <element signature="e#58726#58734#0" expanded="true" />
+                    <element signature="e#58791#58809#0" expanded="true" />
+                    <element signature="e#61118#61126#0" expanded="true" />
+                    <element signature="e#61910#61918#0" expanded="true" />
+                    <element signature="e#62038#62056#0" expanded="true" />
+                    <element signature="e#62115#62132#0" expanded="true" />
+                    <element signature="e#64805#66373#0" expanded="true" />
+                    <element signature="e#66372#66373#0" expanded="true" />
+                    <element signature="e#66488#66505#0" expanded="true" />
+                    <element signature="e#66699#67480#0" expanded="true" />
+                    <element signature="e#67479#67480#0" expanded="true" />
+                    <element signature="e#68218#68226#0" expanded="true" />
+                    <element signature="e#68346#68364#0" expanded="true" />
+                    <element signature="e#68423#68440#0" expanded="true" />
+                    <marker date="1518342786855" expanded="true" signature="1171:1243" ph="select g_uni... ware_goods" />
+                    <marker date="1518342786855" expanded="true" signature="2136:2346" ph="insert into pos_cloud.ware_goods... " />
+                    <marker date="1518342786855" expanded="true" signature="9800:9914" ph="SELECT wi_co... ware_invoicebill" />
+                    <marker date="1518342786855" expanded="true" signature="10779:10896" ph="SELECT g_nam... ware_goods" />
+                    <marker date="1518342786855" expanded="true" signature="10779:11029" ph="SELECT g_nam... ware_goods" />
+                    <marker date="1518342786855" expanded="true" signature="12866:13086" ph="insert into pos_cloud.ware_invoicebill... " />
+                    <marker date="1518342786855" expanded="true" signature="14353:14522" ph="insert into pos_cloud.ware_invoicedtl... " />
+                    <marker date="1518342786855" expanded="true" signature="15629:15733" ph="update pos_cloud.ware_goods... " />
+                    <marker date="1518342786855" expanded="true" signature="25783:26498" ph="select a.*,b... goods_recipebill" />
+                    <marker date="1518342786855" expanded="true" signature="26576:27317" ph="select a.*,b... goods_recipebill" />
+                    <marker date="1518342786855" expanded="true" signature="27394:28134" ph="select a.*,b... goods_recipebill" />
+                    <marker date="1518342786855" expanded="true" signature="29761:29852" ph="SELECT * FRO... ware_invoicedtl" />
+                    <marker date="1518342786855" expanded="true" signature="31640:31711" ph="SELECT * FRO... ware_invoicedtl" />
+                    <marker date="1518342786855" expanded="true" signature="38147:38452" ph="SELECT b.sto... ware_invoicedtl" />
+                    <marker date="1518342786855" expanded="true" signature="39626:39850" ph="insert into pos_cloud.store_goods... " />
+                    <marker date="1518342786855" expanded="true" signature="41484:41701" ph="update pos_cloud.goods_recipebill... " />
+                    <marker date="1518342786855" expanded="true" signature="41742:41868" ph="update pos_cloud.ware_invoicebill... " />
+                    <marker date="1518342786855" expanded="true" signature="41907:42031" ph="update pos_cloud.goods_recipebill... " />
+                    <marker date="1518342786855" expanded="true" signature="48422:48540" ph="SELECT gdb_c... goods_deliverbill" />
+                    <marker date="1518342786855" expanded="true" signature="49377:49532" ph="SELECT g_nam... store_goods" />
+                    <marker date="1518342786855" expanded="true" signature="50998:51205" ph="insert into pos_cloud.goods_deliverbill... " />
+                    <marker date="1518342786855" expanded="true" signature="52234:52401" ph="insert into pos_cloud.goods_deliverdtl... " />
+                    <marker date="1518342786855" expanded="true" signature="53911:54361" ph="SELECT a.*,b... goods_deliverbill" />
+                    <marker date="1518342786855" expanded="true" signature="56246:56320" ph="SELECT * FRO... goods_deliverdtl" />
+                    <marker date="1518342786855" expanded="true" signature="61155:61352" ph="update pos_cloud.goods_deliverbill... " />
+                    <marker date="1518342786855" expanded="true" signature="62247:63025" ph="SELECT a.*,b... goods_deliverbill" />
+                    <marker date="1518342786855" expanded="true" signature="63103:63881" ph="SELECT a.*,b... goods_deliverbill" />
+                    <marker date="1518342786855" expanded="true" signature="63958:64736" ph="select a.*,b... goods_recipebill" />
+                    <marker date="1518342786855" expanded="true" signature="66545:66639" ph="SELECT * FRO... ware_invoicedtl" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PDADeliverBill.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDADeliverBill.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="updateapp.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/updateapp.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="47" column="65" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="68" />
+                  <folding>
+                    <marker date="1516848568506" expanded="true" signature="287:559" ph="{...}" />
+                    <marker date="1516848568506" expanded="true" signature="575:669" ph="{...}" />
+                    <marker date="1516848568506" expanded="true" signature="685:790" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="GoodsDeliverBill.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverBill.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#686#687#0" expanded="true" />
+                    <element signature="e#715#716#0" expanded="true" />
+                    <element signature="e#759#760#0" expanded="true" />
+                    <element signature="e#795#796#0" expanded="true" />
+                    <element signature="e#832#833#0" expanded="true" />
+                    <element signature="e#865#866#0" expanded="true" />
+                    <element signature="e#917#918#0" expanded="true" />
+                    <element signature="e#961#962#0" expanded="true" />
+                    <element signature="e#996#997#0" expanded="true" />
+                    <element signature="e#1027#1028#0" expanded="true" />
+                    <element signature="e#1075#1076#0" expanded="true" />
+                    <element signature="e#1115#1116#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GoodsDeliverDtl.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverDtl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#383#384#0" expanded="true" />
+                    <element signature="e#429#430#0" expanded="true" />
+                    <element signature="e#467#468#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Store</find>
+      <find>input</find>
+      <find>box-tip</find>
+      <find>select</find>
+      <find>Emp</find>
+      <find>storeCode</find>
+      <find>wi</find>
+      <find>GoodsRecipeBill</find>
+      <find>siq</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>store</replace>
+      <replace>Store</replace>
+      <replace>gdb</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/StoreGoods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/EmpInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/js/bootstrap-tab.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdwareinvenice.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoreinvoice.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/updateapp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/geers/geersmag.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/StoreGoodsUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GemoInfo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GstoreInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GDutyInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GempInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/geers/empmag.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GStoreList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GStoreTab.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GCusTypeInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/controller/GeerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/dao/GeerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/pagejs/geersjs.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/geers/storemag.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsWareInvoiceBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/StaStoreInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/StaStoreInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/StaWLMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWInvoiceDtl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWTempUnique.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWInvoiceBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/controller/PdaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsStoreSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/StaDeliverM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsRecipeBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDARecipeBill.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorerecipe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoreware.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdwareinvoice.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDARecipeConfirm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDADeliverBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverDtl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="839" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="pagejs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="geers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="cpos" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="cpos:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cpos_6" />
+        <option name="HTTP_PORT" value="8086" />
+        <option name="JNDI_PORT" value="1096" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59831" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cpos:war" />
+          <artifact name="cpos:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e5c0dcb-7fa3-4d2f-8a6d-f4fa90fd870b" name="Default" comment="" />
+      <created>1517557722260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517557722260</updated>
+      <workItem from="1517557723960" duration="103376000" />
+      <workItem from="1517877787909" duration="33601000" />
+      <workItem from="1517966109557" duration="88377000" />
+      <workItem from="1518229862832" duration="25232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="250586000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="839" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21121252" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16237482" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3158602" sideWeight="0.49722221" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java</url>
+          <line>695</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java</url>
+          <line>1235</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="103" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GDutyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="125" column="1" lean-forward="false" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="91" column="49" lean-forward="true" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GCusTypeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GempInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#820#821#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#924#925#0" expanded="false" />
+            <element signature="e#970#971#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1042#1043#0" expanded="false" />
+            <element signature="e#1072#1073#0" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1224#1225#0" expanded="false" />
+            <element signature="e#1274#1275#0" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
+            <element signature="e#1350#1351#0" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1426#1427#0" expanded="false" />
+            <element signature="e#1464#1465#0" expanded="false" />
+            <element signature="e#1497#1498#0" expanded="false" />
+            <element signature="e#1526#1527#0" expanded="false" />
+            <element signature="e#1570#1571#0" expanded="false" />
+            <element signature="e#1606#1607#0" expanded="false" />
+            <element signature="e#1640#1641#0" expanded="false" />
+            <element signature="e#1670#1671#0" expanded="false" />
+            <element signature="e#1716#1717#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#1816#1817#0" expanded="false" />
+            <element signature="e#1860#1861#0" expanded="false" />
+            <element signature="e#1896#1897#0" expanded="false" />
+            <element signature="e#1931#1932#0" expanded="false" />
+            <element signature="e#1962#1963#0" expanded="false" />
+            <element signature="e#2010#2011#0" expanded="false" />
+            <element signature="e#2050#2051#0" expanded="false" />
+            <element signature="e#2086#2087#0" expanded="false" />
+            <element signature="e#2118#2119#0" expanded="false" />
+            <element signature="e#2168#2169#0" expanded="false" />
+            <element signature="e#2210#2211#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/geers/storemag.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="95" column="22" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="96" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GStoreTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/geers/empmag.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="105" column="168" lean-forward="false" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/StaStoreInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/StoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1012" column="0" lean-forward="false" selection-start-line="1012" selection-start-column="0" selection-end-line="1012" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="137" column="61" lean-forward="false" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/StoreDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="62" column="36" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="63" selection-end-column="46" />
+          <folding>
+            <marker date="1517580206035" expanded="true" signature="804:1227" ph="SELECT a.emp... sta_employee" />
+            <marker date="1517580206035" expanded="true" signature="2754:2863" ph="insert into pos_cloud.log_login... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GeerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="340" column="72" lean-forward="false" selection-start-line="340" selection-start-column="55" selection-end-line="340" selection-end-column="74" />
+          <folding>
+            <marker date="1517884966443" expanded="true" signature="1000:1234" ph="SELECT * FRO... sta_employee" />
+            <marker date="1517884966443" expanded="true" signature="2559:2612" ph="SELECT store... sta_store" />
+            <marker date="1517884966443" expanded="true" signature="3362:3397" ph="SELECT * FRO... sta_empduty" />
+            <marker date="1517884966443" expanded="true" signature="4306:4425" ph="update pos_cloud.sta_employee... " />
+            <marker date="1517884966443" expanded="true" signature="5692:5808" ph="select emp_c... sta_employee" />
+            <marker date="1517884966443" expanded="true" signature="6603:6785" ph="insert into pos_cloud.sta_employee... " />
+            <marker date="1517884966443" expanded="true" signature="8189:8254" ph="update pos_cloud.sta_employee... " />
+            <marker date="1517884966443" expanded="true" signature="9361:9413" ph="delete from pos_cloud.sta_employee... " />
+            <marker date="1517884966443" expanded="true" signature="10401:10647" ph="SELECT a.*,b... sta_store" />
+            <marker date="1517884966443" expanded="true" signature="12229:12307" ph="SELECT store... sta_store" />
+            <marker date="1517884966443" expanded="true" signature="12930:12965" ph="SELECT * FRO... sta_custype" />
+            <marker date="1517884966443" expanded="true" signature="13751:13918" ph="update pos_cloud.sta_store... " />
+            <marker date="1517884966443" expanded="true" signature="15435:15618" ph="insert into pos_cloud.sta_store... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWTempUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#345#346#0" expanded="false" />
+            <element signature="e#379#380#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#455#456#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#599#600#0" expanded="false" />
+            <element signature="e#635#636#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/PdaController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/StoreGoodsUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWInvoiceDtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/StoreGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsStoreSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#652#653#0" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#809#810#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+            <element signature="e#882#883#0" expanded="false" />
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#954#955#0" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
+            <element signature="e#1078#1079#0" expanded="false" />
+            <element signature="e#1111#1112#0" expanded="false" />
+            <element signature="e#1140#1141#0" expanded="false" />
+            <element signature="e#1184#1185#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+            <element signature="e#1318#1319#0" expanded="false" />
+            <element signature="e#1350#1351#0" expanded="false" />
+            <element signature="e#1382#1383#0" expanded="false" />
+            <element signature="e#1410#1411#0" expanded="false" />
+            <element signature="e#1452#1453#0" expanded="false" />
+            <element signature="e#1486#1487#0" expanded="false" />
+            <element signature="e#1519#1520#0" expanded="false" />
+            <element signature="e#1548#1549#0" expanded="false" />
+            <element signature="e#1592#1593#0" expanded="false" />
+            <element signature="e#1628#1629#0" expanded="false" />
+            <element signature="e#1661#1662#0" expanded="false" />
+            <element signature="e#1690#1691#0" expanded="false" />
+            <element signature="e#1734#1735#0" expanded="false" />
+            <element signature="e#1770#1771#0" expanded="false" />
+            <element signature="e#1802#1803#0" expanded="false" />
+            <element signature="e#1830#1831#0" expanded="false" />
+            <element signature="e#1872#1873#0" expanded="false" />
+            <element signature="e#1906#1907#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+            <element signature="e#2054#2055#0" expanded="false" />
+            <element signature="e#2090#2091#0" expanded="false" />
+            <element signature="e#2122#2123#0" expanded="false" />
+            <element signature="e#2172#2173#0" expanded="false" />
+            <element signature="e#2214#2215#0" expanded="false" />
+            <element signature="e#2251#2252#0" expanded="false" />
+            <element signature="e#2284#2285#0" expanded="false" />
+            <element signature="e#2336#2337#0" expanded="false" />
+            <element signature="e#2380#2381#0" expanded="false" />
+            <element signature="e#2415#2416#0" expanded="false" />
+            <element signature="e#2446#2447#0" expanded="false" />
+            <element signature="e#2494#2495#0" expanded="false" />
+            <element signature="e#2534#2535#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/StaWLMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/StaDeliverM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#142#143#0" expanded="false" />
+            <element signature="e#172#173#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+            <element signature="e#320#321#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWInvoiceBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorerecipe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="189" column="39" lean-forward="true" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoreware.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="179" column="35" lean-forward="false" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdwareinvoice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="70" column="26" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="70" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="203" column="63" lean-forward="true" selection-start-line="203" selection-start-column="63" selection-end-line="203" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/impl/Jdk14Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding>
+            <element signature="e#6398#6399#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.4.RELEASE/spring-core-4.2.4.RELEASE-sources.jar!/org/springframework/util/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.13.RELEASE/spring-jdbc-3.2.13.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5070">
+          <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDARecipeConfirm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#259#260#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDARecipeBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/EmpInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#720#721#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/GeerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/geersjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2842">
+          <caret line="359" column="50" lean-forward="false" selection-start-line="359" selection-start-column="12" selection-end-line="359" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!block;n#initSelectDuty#0" expanded="false" />
+            <element signature="n#!!block;n#doQueryEmp#0" expanded="false" />
+            <element signature="n#!!block;n#doDeleteEmp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/updateapp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="47" column="65" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="68" />
+          <folding>
+            <marker date="1516848568506" expanded="true" signature="287:559" ph="{...}" />
+            <marker date="1516848568506" expanded="true" signature="575:669" ph="{...}" />
+            <marker date="1516848568506" expanded="true" signature="685:790" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDADeliverBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsRecipeBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverDtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="154" column="102" lean-forward="false" selection-start-line="154" selection-start-column="95" selection-end-line="154" selection-end-column="108" />
+          <folding>
+            <marker date="1518186594602" expanded="true" signature="16315:16330" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/ResultInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="893" column="34" lean-forward="true" selection-start-line="893" selection-start-column="34" selection-end-line="893" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#dosavenwi#0" expanded="false" />
+            <element signature="n#!!block;n#deletetrs#0" expanded="false" />
+            <element signature="n#!!block;n#gettableinfo#0" expanded="false" />
+            <element signature="n#!!block;n#changetxbnum#0" expanded="false" />
+            <element signature="n#!!block;n#isEmpty#0" expanded="false" />
+            <element signature="n#!!block;n#tdclick#0" expanded="false" />
+            <element signature="n#!!block;n#doaddnwi#0" expanded="false" />
+            <element signature="n#!!block;n#deletetr#0" expanded="false" />
+            <element signature="n#!!block;n#loadwareinvoicetab#0" expanded="false" />
+            <element signature="n#!!block;n#loadslcwarecode#0" expanded="false" />
+            <element signature="n#!!block;n#loadslcstorecode#0" expanded="false" />
+            <element signature="n#!!block;n#loadquerystore#0" expanded="false" />
+            <element signature="n#!!block;n#loadslcwimethod#0" expanded="false" />
+            <element signature="n#!!block;n#doVerifyWareInvoices#0" expanded="false" />
+            <element signature="n#!!block;n#loadslcstorewcode#0" expanded="false" />
+            <element signature="n#!!block;n#loadtabstorerecipe#0" expanded="false" />
+            <element signature="n#!!block;n#loadtabstorereverify#0" expanded="false" />
+            <element signature="n#!!block;n#doStoreRecipe#0" expanded="false" />
+            <element signature="n#!!block;n#doSRecipeVerify#0" expanded="false" />
+            <element signature="n#!!block;n#doQueryStoreWare#0" expanded="false" />
+            <element signature="n#!!block;n#doQueryAllStoreWare#0" expanded="false" />
+            <element signature="n#!!block;n#tdclickd#0" expanded="false" />
+            <element signature="n#!!block;n#changetxbdenum#0" expanded="false" />
+            <element signature="n#!!block;n#deletetrd#0" expanded="false" />
+            <element signature="n#!!block;n#deletedetrs#0" expanded="false" />
+            <element signature="n#!!block;n#getdetableinfo#0" expanded="false" />
+            <element signature="n#!!block;n#loadslcdeliverstorecode#0" expanded="false" />
+            <element signature="n#!!block;n#loadslcdelivermethod#0" expanded="false" />
+            <element signature="n#!!block;n#loadtabverifydeliver#0" expanded="false" />
+            <marker date="1518342958203" expanded="true" signature="17579:17598" ph="..." />
+            <marker date="1518342958203" expanded="true" signature="17667:17686" ph="..." />
+            <marker date="1518342958203" expanded="true" signature="17755:17774" ph="..." />
+            <marker date="1518342958203" expanded="true" signature="17843:17862" ph="..." />
+            <marker date="1518342958203" expanded="true" signature="17931:17950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="1221" column="62" lean-forward="false" selection-start-line="1221" selection-start-column="62" selection-end-line="1221" selection-end-column="62" />
+          <folding>
+            <element signature="method#getStoreGoods#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getWareInvoiceTab#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getGoodsStoreList#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getGoodsWiMethodList#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#doVerifyBill#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getStoreRecipeList#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#17418#17426#0" expanded="true" />
+            <element signature="e#17481#17496#0" expanded="true" />
+            <element signature="method#doVerifyRecipeBill#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#19967#19975#0" expanded="true" />
+            <element signature="e#20032#20049#0" expanded="true" />
+            <element signature="e#20888#20889#0" expanded="true" />
+            <element signature="e#20954#20955#0" expanded="true" />
+            <element signature="e#22107#22108#0" expanded="true" />
+            <element signature="e#22173#22174#0" expanded="true" />
+            <element signature="method#getStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#22700#22708#0" expanded="true" />
+            <element signature="e#22765#22782#0" expanded="true" />
+            <element signature="e#25456#25464#0" expanded="true" />
+            <element signature="e#25581#25598#0" expanded="true" />
+            <element signature="e#25654#25668#0" expanded="true" />
+            <element signature="e#29707#29721#0" expanded="true" />
+            <element signature="e#31535#31543#0" expanded="true" />
+            <element signature="e#31597#31611#0" expanded="true" />
+            <element signature="method#doPADRecipeConfirm#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#33172#33180#0" expanded="true" />
+            <element signature="e#33635#33647#0" expanded="true" />
+            <element signature="class#35334:36580" expanded="false" />
+            <element signature="e#37470#37478#0" expanded="true" />
+            <element signature="e#37535#37553#0" expanded="true" />
+            <element signature="e#38090#38102#0" expanded="true" />
+            <element signature="e#38567#39578#0" expanded="true" />
+            <element signature="e#39577#39578#0" expanded="true" />
+            <element signature="method#doRecipeBillGoods#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#42878#42886#0" expanded="true" />
+            <element signature="e#43543#43544#0" expanded="true" />
+            <element signature="e#43605#43606#0" expanded="true" />
+            <element signature="e#43967#43968#0" expanded="true" />
+            <element signature="e#44029#44030#0" expanded="true" />
+            <element signature="method#doQueryStoreWare#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#44553#44561#0" expanded="true" />
+            <element signature="e#44618#44636#0" expanded="true" />
+            <element signature="method#getDeliverMethod#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#46790#46803#0" expanded="true" />
+            <element signature="e#47510#47518#0" expanded="true" />
+            <element signature="e#47637#47654#0" expanded="true" />
+            <element signature="e#47719#47736#0" expanded="true" />
+            <element signature="e#49247#49261#0" expanded="true" />
+            <element signature="e#53223#53224#0" expanded="true" />
+            <element signature="e#53286#53287#0" expanded="true" />
+            <element signature="e#53799#53807#0" expanded="true" />
+            <element signature="e#53864#53882#0" expanded="true" />
+            <element signature="e#56135#56143#0" expanded="true" />
+            <element signature="e#56200#56217#0" expanded="true" />
+            <element signature="method#doVerifyDeliverBill#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getNotesDeliverBill#0;class#GoodsDao#0" expanded="false" />
+            <element signature="e#58726#58734#0" expanded="true" />
+            <element signature="e#58791#58809#0" expanded="true" />
+            <element signature="e#61118#61126#0" expanded="true" />
+            <element signature="e#61910#61918#0" expanded="true" />
+            <element signature="e#62038#62056#0" expanded="true" />
+            <element signature="e#62115#62132#0" expanded="true" />
+            <element signature="e#64805#66373#0" expanded="true" />
+            <element signature="e#66372#66373#0" expanded="true" />
+            <element signature="e#66488#66505#0" expanded="true" />
+            <element signature="e#66699#67480#0" expanded="true" />
+            <element signature="e#67479#67480#0" expanded="true" />
+            <element signature="e#68218#68226#0" expanded="true" />
+            <element signature="e#68346#68364#0" expanded="true" />
+            <element signature="e#68423#68440#0" expanded="true" />
+            <marker date="1518342786855" expanded="true" signature="1171:1243" ph="select g_uni... ware_goods" />
+            <marker date="1518342786855" expanded="true" signature="2136:2346" ph="insert into pos_cloud.ware_goods... " />
+            <marker date="1518342786855" expanded="true" signature="9800:9914" ph="SELECT wi_co... ware_invoicebill" />
+            <marker date="1518342786855" expanded="true" signature="10779:10896" ph="SELECT g_nam... ware_goods" />
+            <marker date="1518342786855" expanded="true" signature="10779:11029" ph="SELECT g_nam... ware_goods" />
+            <marker date="1518342786855" expanded="true" signature="12866:13086" ph="insert into pos_cloud.ware_invoicebill... " />
+            <marker date="1518342786855" expanded="true" signature="14353:14522" ph="insert into pos_cloud.ware_invoicedtl... " />
+            <marker date="1518342786855" expanded="true" signature="15629:15733" ph="update pos_cloud.ware_goods... " />
+            <marker date="1518342786855" expanded="true" signature="25783:26498" ph="select a.*,b... goods_recipebill" />
+            <marker date="1518342786855" expanded="true" signature="26576:27317" ph="select a.*,b... goods_recipebill" />
+            <marker date="1518342786855" expanded="true" signature="27394:28134" ph="select a.*,b... goods_recipebill" />
+            <marker date="1518342786855" expanded="true" signature="29761:29852" ph="SELECT * FRO... ware_invoicedtl" />
+            <marker date="1518342786855" expanded="true" signature="31640:31711" ph="SELECT * FRO... ware_invoicedtl" />
+            <marker date="1518342786855" expanded="true" signature="38147:38452" ph="SELECT b.sto... ware_invoicedtl" />
+            <marker date="1518342786855" expanded="true" signature="39626:39850" ph="insert into pos_cloud.store_goods... " />
+            <marker date="1518342786855" expanded="true" signature="41484:41701" ph="update pos_cloud.goods_recipebill... " />
+            <marker date="1518342786855" expanded="true" signature="41742:41868" ph="update pos_cloud.ware_invoicebill... " />
+            <marker date="1518342786855" expanded="true" signature="41907:42031" ph="update pos_cloud.goods_recipebill... " />
+            <marker date="1518342786855" expanded="true" signature="48422:48540" ph="SELECT gdb_c... goods_deliverbill" />
+            <marker date="1518342786855" expanded="true" signature="49377:49532" ph="SELECT g_nam... store_goods" />
+            <marker date="1518342786855" expanded="true" signature="50998:51205" ph="insert into pos_cloud.goods_deliverbill... " />
+            <marker date="1518342786855" expanded="true" signature="52234:52401" ph="insert into pos_cloud.goods_deliverdtl... " />
+            <marker date="1518342786855" expanded="true" signature="53911:54361" ph="SELECT a.*,b... goods_deliverbill" />
+            <marker date="1518342786855" expanded="true" signature="56246:56320" ph="SELECT * FRO... goods_deliverdtl" />
+            <marker date="1518342786855" expanded="true" signature="61155:61352" ph="update pos_cloud.goods_deliverbill... " />
+            <marker date="1518342786855" expanded="true" signature="62247:63025" ph="SELECT a.*,b... goods_deliverbill" />
+            <marker date="1518342786855" expanded="true" signature="63103:63881" ph="SELECT a.*,b... goods_deliverbill" />
+            <marker date="1518342786855" expanded="true" signature="63958:64736" ph="select a.*,b... goods_recipebill" />
+            <marker date="1518342786855" expanded="true" signature="66545:66639" ph="SELECT * FRO... ware_invoicedtl" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+          <folding>
+            <element signature="e#1870#1871#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cpos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
