@@ -259,9 +259,7 @@
                         if(row.isstorage =='0'){
                             return ['<span class="label label-danger">待收货</span>',].join('');
                         }else if(row.isstorage =='1'){
-                            return ['<span class="label label-info">校验中</span>',].join('');
-                        }else if(row.isstorage =='2'){
-                            return ['<span class="label label-success">已收货</span>',].join('');
+                            return ['<span class="label label-info">已收货</span>',].join('');
                         }
                     }
                 }],
