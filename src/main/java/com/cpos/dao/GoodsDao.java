@@ -1243,6 +1243,83 @@ public class GoodsDao {
 
             listgdbill = JSONArray.toList(JSONArray.fromObject(strbill),GoodsDeliverBill.class);
             listgddtl = JSONArray.toList(JSONArray.fromObject(strdtl),GoodsDeliverDtl.class);
+
+            for(int i =0;i<listgdbill.size();i++){
+                String strwibcode = "";
+                String strlastwicode = "";
+                String strl = "";
+                Date insdate = new Date();
+                SimpleDateFormat fin = new SimpleDateFormat("yyMMdd");
+                strl = fin.format(insdate);
+                strwibcode = listgdbill.get(i).getInvoiceStore() + strl;
+                try{
+                    String strlsql = "SELECT wi_code FROM pos_cloud.ware_invoicebill where wi_code like '%"+strwibcode+"%' order by wi_code DESC limit 1;";
+                    strlastwicode = jdbcTemplate.queryForObject(strlsql,String.class);
+                }catch (EmptyResultDataAccessException e) {
+                    strlastwicode = null;
+                }
+                if(strlastwicode == null){
+                    strwibcode = strwibcode + String.format("%03d",1);
+                }else{
+                    int intc = Integer.parseInt(strlastwicode.substring(strlastwicode.length()-3, strlastwicode.length()));
+                    intc++;
+                    strwibcode = strwibcode + String.format("%03d",intc);
+                }
+                String strinswib = "insert into pos_cloud.ware_invoicebill (wi_code,ware_code,store_code,wl_code,wi_method,wi_count,wi_emp,isverify,isstorage,intype,cargotype,gmt_creat,gmt_modify)\n" +
+                        "values(?,?,?,?,?,?,?,?,?,?,?,?,?);";
+                Date insdates = new Date();
+                SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                final String strdate = fins.format(insdates);
+                final String finalStrwibcode = strwibcode;
+                final GoodsDeliverBill finalListgdbill = listgdbill.get(i);
+                jdbcTemplate.update(strinswib, new PreparedStatementSetter() {
+                    @Override
+                    public void setValues(PreparedStatement ps) throws SQLException {
+                        ps.setObject(1, finalStrwibcode);
+                        ps.setObject(2, finalListgdbill.getInvoiceStore());
+                        ps.setObject(3,finalListgdbill.getRecipeStore());
+                        ps.setObject(4,finalListgdbill.getWlCode());
+                        ps.setObject(5,finalListgdbill.getWlMethod());
+                        ps.setObject(6,finalListgdbill.getGdbCount());
+                        ps.setObject(7,finalListgdbill.getGdiEmp());
+                        ps.setObject(8,finalListgdbill.getIsverify());
+                        ps.setObject(9,finalListgdbill.getIsstorage());
+                        ps.setObject(10,finalListgdbill.getIntype());
+                        ps.setObject(11,finalListgdbill.getCargotype());
+                        ps.setObject(12,strdate);
+                        ps.setObject(13,strdate);
+                    }
+                });
+
+                for(int j= 0;j<listgddtl.size();j++){
+                    if(listgddtl.get(j).getGdbCode().equals(listgdbill.get(i).getGdbCode())){
+                        String strinswid = "insert into pos_cloud.ware_invoicedtl(wi_code,wi_sku,wi_name,wi_style,wi_color,wi_size,wi_sizeqty,g_unique,gmt_creat)\n" +
+                                "values(?,?,?,?,?,?,?,?,?)";
+                        final GoodsDeliverDtl finalListgddtl = listgddtl.get(j);
+                        jdbcTemplate.update(strinswid, new PreparedStatementSetter() {
+                            @Override
+                            public void setValues(PreparedStatement ps) throws SQLException {
+                                ps.setObject(1,finalStrwibcode);
+                                ps.setObject(2, finalListgddtl.getGdbSku());
+                                ps.setObject(3,finalListgddtl.getGdbName());
+                                ps.setObject(4,finalListgddtl.getGdbStyle());
+                                ps.setObject(5,finalListgddtl.getGdbColor());
+                                ps.setObject(6,finalListgddtl.getGdbSize());
+                                ps.setObject(7,finalListgddtl.getGdbSizeQty());
+                                ps.setObject(8,finalListgddtl.getgUnique());
+                                ps.setObject(9,strdate);
+                            }
+                        });
+                    }
+                }
+                String strupbill = "update pos_cloud.goods_deliverbill set isinvoice ='2'," +
+                        "wl_code='"+listgdbill.get(i).getWlCode()+"'," +
+                        "wl_method='"+listgdbill.get(i).getWlMethod()+"'," +
+                        "gmt_modify='"+strdate+"'," +
+                        "gdi_emp='"+listgdbill.get(i).getGdiEmp()+"' where gdb_code ='"+listgdbill.get(i).getGdbCode()+"'";
+                jdbcTemplate.update(strupbill);
+            }
+
         } catch (Exception es){
             resultInfo.setCode(1);
             resultInfo.setCount(1);
