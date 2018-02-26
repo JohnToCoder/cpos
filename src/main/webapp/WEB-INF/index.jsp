@@ -194,6 +194,7 @@
                 <li><a href="javascript:void(0)" onclick="pageStoreRecipe()"><i class="fa fa-file-text-o"></i> 门店收货单</a></li>
                 <li><a href="javascript:void(0)" onclick="pageStoreWare()"><i class="fa fa-cloud-upload"></i> 门店库存查询</a></li>
                 <li><a href="javascript:void(0)" onclick="pageStoreInvoice()"><i class="fa fa-cart-arrow-down"></i> 门店转货单</a></li>
+                <li><a href="javascript:void(0)" onclick="pageStoreCheck()"><i class="fa fa-sitemap"></i> 门店盘点单</a></li>
               </ul>
             </li>
             <li class=" treeview">
@@ -207,7 +208,7 @@
               <ul class="treeview-menu">
                 <li><a href="javascript:void(0)" onclick="pageStoreMag()"><i class="fa fa-crop"></i> 销售开单</a></li>
                 <li><a href="javascript:void(0)" onclick="pageEmployeeMag()"><i class="fa fa-user-plus"></i> 销售统计</a></li>
-                <li><a href="javascript:void(0)" onclick="pageGeersMag()"><i class="fa fa-gears"></i> 基础配置</a></li>
+                <li><a href="javascript:void(0)" onclick="pageGeersMag()"><i class="fa fa-gears"></i> 销售配置</a></li>
 
               </ul>
             </li>

@@ -155,6 +155,9 @@
 					<button id="btnsureinvoice" type="button" class="btn btn-success" onclick="dosureinvoice()">
 						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>确认发货
 					</button>
+					<button id="btnss" type="button" class="btn btn-success" onclick="doupcheck()">
+						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>上传盘点
+					</button>
 				</div>
 				<table id="tabnotesdeliver" data-search="true" style="font-size: 10px">
 				</table>

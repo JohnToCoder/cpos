@@ -898,3 +898,18 @@ function dosureinvoice() {
         }
     });
 }
+function doupcheck() {
+    $.ajax({
+        type:'post',
+        url:'goods/pda/upcheckdata',
+        contentType:'application/json; charset=UTF-8',
+        data:JSON.stringify({"count":1, "checkbillNo":"CS019JP18022405","data":[{"epc":"201801270001000000000000"},{"epc":"201801270002000000000000"}]}),
+        success:function(result) {
+            var oplist = JSON.parse(result);
+            if(oplist.code == 0) {
+
+                alert(oplist.data);
+            }
+        }
+    });
+}

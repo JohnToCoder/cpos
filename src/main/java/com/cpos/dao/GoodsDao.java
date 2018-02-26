@@ -86,32 +86,58 @@ public class GoodsDao {
         return ResultInfo.creatResult(0, intins.length, "OK");
     }
 
-    public ResultInfo<String> getStoreGoods() {
+    public String getStoreGoods(String strstore, String strlastdate) {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        GWLastDate gwLastDate = new GWLastDate();
         List<StoreGoodsUp> listsg = new ArrayList<StoreGoodsUp>();
-        String sstr = "SELECT * FROM pos_cloud.store_goods;";
         try {
-            listsg = jdbcTemplate.query(sstr, new ParameterizedRowMapper<StoreGoodsUp>() {
-                @Override
-                public StoreGoodsUp mapRow(ResultSet rs, int rowNum) throws SQLException {
-                    StoreGoodsUp sg = new StoreGoodsUp();
+            String sqllast = "SELECT store_outdt FROM pos_cloud.store_goods where store_code = '"+strstore+"' order by store_outdt desc limit 1;";
+            try {
+            String strlast = jdbcTemplate.queryForObject(sqllast,String.class);
+            if(strlast.compareTo(strlastdate)>0) {
 
-                    sg.setgGroup(rs.getString("g_group"));
-                    sg.setgLocation(rs.getString("g_location"));
-                    sg.setgUnique(rs.getString("g_unique"));
-                    sg.setgSku(rs.getString("g_sku"));
-                    sg.setgName(rs.getString("g_name"));
-                    sg.setgStyle(rs.getString("g_style"));
-                    sg.setgColor(rs.getString("g_color"));
-                    sg.setgSize(rs.getString("g_size"));
+                String sstr = "SELECT * FROM pos_cloud.store_goods where store_code ='"+strstore+"' and isstate ='1';";
 
-                    return sg;
-                }
-            });
-        } catch (Exception es) {
-            return ResultInfo.creatError(1, 1, es.getMessage().toString());
+                    listsg = jdbcTemplate.query(sstr, new ParameterizedRowMapper<StoreGoodsUp>() {
+                        @Override
+                        public StoreGoodsUp mapRow(ResultSet rs, int rowNum) throws SQLException {
+                            StoreGoodsUp sg = new StoreGoodsUp();
+
+                            sg.setgGroup(rs.getString("g_group"));
+                            sg.setgLocation(rs.getString("g_location"));
+                            sg.setgUnique(rs.getString("g_unique"));
+                            sg.setgSku(rs.getString("g_sku"));
+                            sg.setgName(rs.getString("g_name"));
+                            sg.setgStyle(rs.getString("g_style"));
+                            sg.setgColor(rs.getString("g_color"));
+                            sg.setgSize(rs.getString("g_size"));
+
+                            return sg;
+                        }
+                    });
+
+                    gwLastDate.setLastDate(strlast);
+                    gwLastDate.setStoreGoods(JSONArray.fromObject(listsg).toString());
+                    resultInfo.setCode(0);
+                    resultInfo.setCount(listsg.size());
+                    resultInfo.setData(JSONObject.fromObject(gwLastDate).toString());
+
+            }else{
+                resultInfo.setCode(2);
+                resultInfo.setCount(1);
+                resultInfo.setData("lastversion!");
+            }
+            }catch (EmptyResultDataAccessException es){
+                resultInfo.setCode(0);
+                resultInfo.setCode(0);
+                resultInfo.setData("Empty in store ware!");
+            }
+        } catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.toString());
         }
-        JSONArray ja = JSONArray.fromObject(listsg);
-        return ResultInfo.creatResult(0, listsg.size(), ja.toString());
+        return JSONObject.fromObject(resultInfo).toString();
     }
 
     public String getWareInvoiceTab() {
@@ -211,12 +237,12 @@ public class GoodsDao {
             }catch (EmptyResultDataAccessException e) {
                 strlastwicode = null;
             }
-            if(strlastwicode == null){
-                strwibcode = strwibcode + String.format("%03d",1);
-            }else{
+            if(strlastwicode != null && strlastwicode.contains(strl)){
                 int intc = Integer.parseInt(strlastwicode.substring(strlastwicode.length()-3, strlastwicode.length()));
                 intc++;
                 strwibcode = strwibcode + String.format("%03d",intc);
+            }else{
+                strwibcode = strwibcode + String.format("%03d",1);
             }
             wibill.setWiCode(strwibcode);
             wibill.setWiEmp(empCode);
@@ -897,12 +923,12 @@ public class GoodsDao {
             }catch (EmptyResultDataAccessException e) {
                 strgdblastcode = null;
             }
-            if(strgdblastcode == null){
-                strgdbcode = strgdbcode + String.format("%03d",1);
-            }else{
+            if(strgdblastcode != null && strgdblastcode.contains(strl)){
                 int intc = Integer.parseInt(strgdblastcode.substring(strgdblastcode.length()-3, strgdblastcode.length()));
                 intc++;
                 strgdbcode = strgdbcode + String.format("%03d",intc);
+            }else{
+                strgdbcode = strgdbcode + String.format("%03d",1);
             }
             listdbill.setGdbCode(strgdbcode);
             for(int i =0;i<listddtl.size();i++) {
@@ -1272,6 +1298,7 @@ public class GoodsDao {
                 final String strdate = fins.format(insdates);
                 final String finalStrwibcode = strwibcode;
                 final GoodsDeliverBill finalListgdbill = listgdbill.get(i);
+                finalListgdbill.setIsstorage("0");
                 jdbcTemplate.update(strinswib, new PreparedStatementSetter() {
                     @Override
                     public void setValues(PreparedStatement ps) throws SQLException {
@@ -1310,17 +1337,99 @@ public class GoodsDao {
                                 ps.setObject(9,strdate);
                             }
                         });
+                        String strupdate = "update pos_cloud.store_goods set isstate='2',store_outdt = '"+strdate+"' where g_unique = '"+finalListgddtl.getgUnique()+"';";
+                        jdbcTemplate.update(strupdate);
                     }
                 }
                 String strupbill = "update pos_cloud.goods_deliverbill set isinvoice ='2'," +
                         "wl_code='"+listgdbill.get(i).getWlCode()+"'," +
                         "wl_method='"+listgdbill.get(i).getWlMethod()+"'," +
-                        "gmt_modify='"+strdate+"'," +
-                        "gdi_emp='"+listgdbill.get(i).getGdiEmp()+"' where gdb_code ='"+listgdbill.get(i).getGdbCode()+"'";
+                        "gmt_modify='"+strdate+"' where gdb_code ='"+listgdbill.get(i).getGdbCode()+"'";
                 jdbcTemplate.update(strupbill);
             }
-
+            resultInfo.setCode(0);
+            resultInfo.setCount(1);
+            resultInfo.setData("OK");
         } catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.getMessage().toString());
+        }
+        return JSONObject.fromObject(resultInfo).toString();
+    }
+
+    public String doUpPDACheckBill(final String strstorecode, final String strtype) {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        String strlastscb = "";
+        String strscbcode = "";
+        try{
+            Date insdate = new Date();
+            SimpleDateFormat fin = new SimpleDateFormat("yyMMdd");
+            String strl = fin.format(insdate);
+            String strlastsql = "SELECT scb_code FROM pos_cloud.store_checkbill where store_code = '"+strstorecode+"' order by scb_code desc limit 1;";
+            try{
+                strlastscb = jdbcTemplate.queryForObject(strlastsql,String.class);
+            }catch (EmptyResultDataAccessException e){
+                strlastscb = null;
+            }
+            if(strlastscb!=null&&strlastscb.contains(strl)){
+                int intscb = Integer.parseInt(strlastscb.substring(strlastscb.length()-2,strlastscb.length()));
+                intscb++;
+                strscbcode = "C"+strstorecode+strl + String.format("%02d",intscb);
+            }else{
+                strscbcode = "C"+strstorecode+strl+String.format("%02d",1);
+            }
+            Date insdates = new Date();
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            final String strdate = fins.format(insdates);
+            String sqlins = "insert into pos_cloud.store_checkbill (store_code,scb_code,scb_type,gmt_creat) values(?,?,?,?)";
+            final String finalStrscbcode = strscbcode;
+            jdbcTemplate.update(sqlins, new PreparedStatementSetter() {
+                @Override
+                public void setValues(PreparedStatement ps) throws SQLException {
+                    ps.setObject(1,strstorecode);
+                    ps.setObject(2, finalStrscbcode);
+                    ps.setObject(3,strtype);
+                    ps.setObject(4,strdate);
+                }
+            });
+            resultInfo.setCode(0);
+            resultInfo.setCount(1);
+            resultInfo.setData(strscbcode);
+        }catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.getMessage().toString());
+        }
+        return JSONObject.fromObject(resultInfo).toString();
+    }
+
+    public String doUpPDACheckData(final String strcheckbill, String strcheckdata) {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        List<GoodsCheckDtl> listdtl = new ArrayList<GoodsCheckDtl>();
+        try{
+            Date insdates = new Date();
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            final String strdate = fins.format(insdates);
+            listdtl = JSONArray.toList(JSONArray.fromObject(strcheckdata),GoodsCheckDtl.class);
+            String sqlins = "insert into pos_cloud.store_checkdtl(scb_code,scb_epc,gmt_creat) values(?,?,?)";
+            final List<GoodsCheckDtl> finalListdtl = listdtl;
+            int[] ins = jdbcTemplate.batchUpdate(sqlins, new BatchPreparedStatementSetter() {
+                @Override
+                public void setValues(PreparedStatement ps, int i) throws SQLException {
+                    ps.setObject(1,strcheckbill);
+                    ps.setObject(2, finalListdtl.get(i).getEpc());
+                    ps.setObject(3,strdate);
+                }
+                @Override
+                public int getBatchSize() {
+                    return finalListdtl.size();
+                }
+            });
+            resultInfo.setCode(0);
+            resultInfo.setCount(ins.length);
+            resultInfo.setData("OK");
+        }catch (Exception es){
             resultInfo.setCode(1);
             resultInfo.setCount(1);
             resultInfo.setData(es.getMessage().toString());

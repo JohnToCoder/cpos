@@ -2,7 +2,7 @@
  * Created by john on 2017/4/21.
  */
 function initpages() {
-    addTabs({id: '0', title: '首页', close: true, url: '/plan/planindex'});
+    addTabs({id: '0', title: '首页', close: true, url: 'firstpages'});
 }
 function pageWareInvoice() {
     addTabs({id:'21',title:'仓库发货',close: true,url:'goods/gdwareinvoice'});
@@ -15,6 +15,9 @@ function pageStoreWare() {
 }
 function pageStoreInvoice() {
     addTabs({id:'24',title:'店转货单',close: true,url:'goods/gdstoredeliver'});
+}
+function pageStoreCheck() {
+    addTabs({id:'25',title:'门店盘点',close: true,url:'goods/gdstorecheck'});
 }
 function pageStoreMag() {
     addTabs({id:'31',title:'单位管理',close:true,url:'geers/pgstoremag'});

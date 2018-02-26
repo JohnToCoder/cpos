@@ -13,10 +13,14 @@ public class PageController {
     public String gdStoreWare(){return "/goods/gdstoreware";}
     @RequestMapping(value = "/goods/gdstoredeliver")
     public String gdStoreInvoice(){return "/goods/gdstoredeliver";}
+    @RequestMapping(value = "/goods/gdstorecheck")
+    public String gdStoreCheck(){return "/goods/gdstorecheck";}
     @RequestMapping(value = "/geers/pgstoremag")
     public String geersStoreMag(){return "/geers/storemag";}
     @RequestMapping(value = "/geers/pgempmag")
     public String geersEmpMag(){return "/geers/empmag";}
     @RequestMapping(value = "/geers/pggeersmag")
     public String geersGeerMag(){return "/geers/geersmag";}
+    @RequestMapping(value = "/firstpages")
+    public String firstPages(){return "firstpages";}
 }

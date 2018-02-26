@@ -194,6 +194,7 @@
                 <li><a href="javascript:void(0)" onclick="pageStoreRecipe()"><i class="fa fa-file-text-o"></i> 门店收货单</a></li>
                 <li><a href="javascript:void(0)" onclick="pageStoreWare()"><i class="fa fa-cloud-upload"></i> 门店库存查询</a></li>
                 <li><a href="javascript:void(0)" onclick="pageStoreInvoice()"><i class="fa fa-cart-arrow-down"></i> 门店转货单</a></li>
+                <li><a href="javascript:void(0)" onclick="pageStoreCheck()"><i class="fa fa-sitemap"></i> 门店盘点单</a></li>
               </ul>
             </li>
             <li class=" treeview">

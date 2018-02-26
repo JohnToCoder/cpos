@@ -55,10 +55,12 @@ public class GoodsController {
         return goodsDao.upWareGoods(strginfo);
     }
     //获取库存信息
-    @RequestMapping(value = "/goods/getstoregoods")
+    @RequestMapping(value = "/goods/getstoregoods",produces = {"text/html;charset=UTF-8;","application/json;"})
     @ResponseBody
-    public ResultInfo<String> getStoreGoods(HttpServletRequest request){
-        return goodsDao.getStoreGoods();
+    public String getStoreGoods(HttpServletRequest request){
+        String strstore = request.getParameter("shopCode");
+        String strlastdate = request.getParameter("lastUpTime");
+        return goodsDao.getStoreGoods(strstore,strlastdate);
     }
     //上传仓库发货单信息
     @RequestMapping(value = "/goods/doupwibilldtl",produces = {"text/html;charset=UTF-8;","application/json;"})
@@ -217,5 +219,21 @@ public class GoodsController {
         String strdata = jsonObject.getString("data");
         int strcount = jsonObject.getInt("count");
         return goodsDao.doPDAUpDeliverInfo(strcount,strdata);
+    }
+    //PDA上传盘点单
+    @RequestMapping(value = "/goods/pda/upcheckbill")
+    @ResponseBody
+    public String doUpCheckBill(HttpServletRequest request ){
+        String strstorecode = request.getParameter("shopCode");
+        String strtype = request.getParameter("type");
+        return goodsDao.doUpPDACheckBill(strstorecode,strtype);
+    }
+    //PDA上传盘点单详情
+    @RequestMapping(value = "/goods/pda/upcheckdata")
+    @ResponseBody
+    public String doUpPDACheckData(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        String strcheckbill = jsonObject.getString("checkbillNo");
+        String strcheckdata = jsonObject.getString("data");
+        return goodsDao.doUpPDACheckData(strcheckbill,strcheckdata);
     }
 }
