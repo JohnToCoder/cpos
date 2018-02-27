@@ -8,97 +8,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5c0dcb-7fa3-4d2f-8a6d-f4fa90fd870b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWLastDate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsCheckBill.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsCheckDtl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/firstpages.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorecheck.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesbill.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesBill.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesDtl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesPrice.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/SalesController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/dao/SalesDao.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesbill.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesbill.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/controller/GoodsController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/controller/PageController.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/controller/PageController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$10.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$10.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$11.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$11.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$12.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$12.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$13.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$13.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$14.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$14.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$15.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$15.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$16.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$16.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$17.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$17.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$18.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$18.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$19.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$19.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$2.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$20.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$20.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$21.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$21.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$22.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$22.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$23.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$23.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$24.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$24.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$25.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$25.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$26.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$26.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$27.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$27.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$28.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$28.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$29.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$29.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$3.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$30.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$30.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$31.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$31.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$32.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$32.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$33.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$33.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$4.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$5.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$6.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$7.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$7.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$8.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$8.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$9.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$9.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao.class" />
       <change beforePath="$PROJECT_DIR$/target/cpos.war" afterPath="$PROJECT_DIR$/target/cpos.war" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/GoodsController.class" />
       <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/PageController.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/PageController.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$10.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$10.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$11.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$11.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$12.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$12.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$13.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$13.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$14.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$14.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$15.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$15.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$16.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$16.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$17.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$17.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$18.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$18.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$19.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$19.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$2.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$20.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$20.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$21.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$21.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$22.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$22.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$23.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$23.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$24.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$24.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$25.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$25.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$26.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$26.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$27.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$27.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$28.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$28.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$29.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$29.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$3.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$30.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$30.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$31.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$31.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$32.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$32.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$33.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$33.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$4.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$5.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$6.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$7.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$7.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$8.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$8.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$9.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$9.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdstoredeliver.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdstoredeliver.jsp" />
       <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/assets/pagejs/goodsjs.js" afterPath="$PROJECT_DIR$/target/cpos/assets/pagejs/goodsjs.js" />
+      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/mvc-diaprtcher-srervlet.xml" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/mvc-diaprtcher-srervlet.xml" />
       <change beforePath="$PROJECT_DIR$/target/cpos/assets/pagejs/indexjs.js" afterPath="$PROJECT_DIR$/target/cpos/assets/pagejs/indexjs.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,317 +49,271 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5696913">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mvc-diaprtcher-srervlet.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-                  <folding>
-                    <element signature="e#2396#2418#0" expanded="true" />
-                    <element signature="e#2460#2474#0" expanded="true" />
-                    <element signature="e#2517#2536#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gdstorecheck.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorecheck.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="169">
-                  <caret line="210" column="106" lean-forward="false" selection-start-line="210" selection-start-column="106" selection-end-line="210" selection-end-column="106" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="salescount.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="salesgeer.jsp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="salesbill.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesbill.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="indexjs.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="69" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="231" column="51" lean-forward="false" selection-start-line="231" selection-start-column="29" selection-end-line="231" selection-end-column="51" />
-                  <folding>
-                    <element signature="e#1870#1871#0" expanded="true" />
-                    <element signature="e#1925#1926#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GoodsDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2992">
-                  <caret line="1429" column="44" lean-forward="false" selection-start-line="1429" selection-start-column="44" selection-end-line="1429" selection-end-column="44" />
-                  <folding>
-                    <element signature="method#upWareGoods#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#4087#4095#0" expanded="true" />
-                    <element signature="e#4198#4212#0" expanded="true" />
-                    <element signature="e#4702#5570#0" expanded="true" />
-                    <element signature="e#5569#5570#0" expanded="true" />
-                    <element signature="method#getWareInvoiceTab#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getGoodsStoreList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getGoodsWiMethodList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doUpwiBillDtl#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doVerifyBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getStoreRecipeList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doVerifyRecipeBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#22211#22212#0" expanded="true" />
-                    <element signature="e#22277#22278#0" expanded="true" />
-                    <element signature="e#23430#23431#0" expanded="true" />
-                    <element signature="e#23496#23497#0" expanded="true" />
-                    <element signature="method#getStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doPADRecipeConfirm#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="class#36657:37903" expanded="false" />
-                    <element signature="method#doPDARecipeConfirmList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doRecipeBillGoods#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#44866#44867#0" expanded="true" />
-                    <element signature="e#44928#44929#0" expanded="true" />
-                    <element signature="e#45290#45291#0" expanded="true" />
-                    <element signature="e#45352#45353#0" expanded="true" />
-                    <element signature="method#doQueryStoreWare#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getDeliverMethod#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#54579#54580#0" expanded="true" />
-                    <element signature="e#54642#54643#0" expanded="true" />
-                    <element signature="method#getDeliverBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getDeliverDtl#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doVerifyDeliverBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getNotesDeliverBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doCreatDeliver#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getPDADeliverInfo#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#69574#69582#0" expanded="true" />
-                    <element signature="e#69702#69720#0" expanded="true" />
-                    <element signature="e#69779#69796#0" expanded="true" />
-                    <element signature="e#72028#73089#0" expanded="true" />
-                    <element signature="e#73088#73089#0" expanded="true" />
-                    <element signature="e#73605#74490#0" expanded="true" />
-                    <element signature="e#74489#74490#0" expanded="true" />
-                    <element signature="e#75661#75669#0" expanded="true" />
-                    <element signature="e#77050#77415#0" expanded="true" />
-                    <element signature="e#77414#77415#0" expanded="true" />
-                    <element signature="e#77912#77920#0" expanded="true" />
-                    <element signature="e#77975#77990#0" expanded="true" />
-                    <element signature="e#78911#78912#0" expanded="true" />
-                    <element signature="e#78977#78978#0" expanded="true" />
-                    <marker date="1519449400222" expanded="true" signature="4260:4373" ph="SELECT store... store_goods" />
-                    <marker date="1519449400222" expanded="true" signature="4558:4593" ph="SELECT * FRO... store_goods" />
-                    <marker date="1519449400222" expanded="true" signature="4558:4643" ph="SELECT * FRO... store_goods" />
-                    <marker date="1519449400222" expanded="true" signature="27106:27821" ph="select a.*,b... goods_recipebill" />
-                    <marker date="1519449400222" expanded="true" signature="27899:28640" ph="select a.*,b... goods_recipebill" />
-                    <marker date="1519449400222" expanded="true" signature="28717:29457" ph="select a.*,b... goods_recipebill" />
-                    <marker date="1519449400222" expanded="true" signature="31084:31175" ph="SELECT * FRO... ware_invoicedtl" />
-                    <marker date="1519449400222" expanded="true" signature="32963:33034" ph="SELECT * FRO... ware_invoicedtl" />
-                    <marker date="1519449400222" expanded="true" signature="49745:49863" ph="SELECT gdb_c... goods_deliverbill" />
-                    <marker date="1519449400222" expanded="true" signature="50733:50888" ph="SELECT g_nam... store_goods" />
-                    <marker date="1519449400222" expanded="true" signature="52354:52561" ph="insert into pos_cloud.goods_deliverbill... " />
-                    <marker date="1519449400222" expanded="true" signature="53590:53757" ph="insert into pos_cloud.goods_deliverdtl... " />
-                    <marker date="1519449400222" expanded="true" signature="70634:70748" ph="SELECT wi_co... ware_invoicebill" />
-                    <marker date="1519449400222" expanded="true" signature="71376:71600" ph="insert into pos_cloud.ware_invoicebill... " />
-                    <marker date="1519449400222" expanded="true" signature="73285:73466" ph="insert into pos_cloud.ware_invoicedtl... " />
-                    <marker date="1519449400222" expanded="true" signature="74537:74660" ph="update pos_cloud.store_goods... " />
-                    <marker date="1519449400222" expanded="true" signature="74796:75106" ph="update pos_cloud.goods_deliverbill... " />
-                    <marker date="1519449400222" expanded="true" signature="75936:76051" ph="SELECT scb_c... store_checkbill" />
-                    <marker date="1519449400222" expanded="true" signature="76858:76952" ph="insert into pos_cloud.store_checkbill... " />
-                    <marker date="1519449400222" expanded="true" signature="78311:78389" ph="insert into pos_cloud.store_checkdtl... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="GoodsDeliverBill.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverBill.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#686#687#0" expanded="true" />
-                    <element signature="e#715#716#0" expanded="true" />
-                    <element signature="e#759#760#0" expanded="true" />
-                    <element signature="e#795#796#0" expanded="true" />
-                    <element signature="e#832#833#0" expanded="true" />
-                    <element signature="e#865#866#0" expanded="true" />
-                    <element signature="e#917#918#0" expanded="true" />
-                    <element signature="e#961#962#0" expanded="true" />
-                    <element signature="e#996#997#0" expanded="true" />
-                    <element signature="e#1027#1028#0" expanded="true" />
-                    <element signature="e#1075#1076#0" expanded="true" />
-                    <element signature="e#1115#1116#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GoodsDeliverDtl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverDtl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#353#354#0" expanded="true" />
-                    <element signature="e#383#384#0" expanded="true" />
-                    <element signature="e#429#430#0" expanded="true" />
-                    <element signature="e#467#468#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GoodsDao.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="1383" column="57" lean-forward="false" selection-start-line="1381" selection-start-column="12" selection-end-line="1383" selection-end-column="57" />
-                  <folding>
-                    <element signature="method#getStoreGoods#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#4087#4095#0" expanded="true" />
-                    <element signature="method#getWareInvoiceTab#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getGoodsStoreList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getGoodsWiMethodList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#12445#13068#0" expanded="true" />
-                    <element signature="e#13067#13068#0" expanded="true" />
-                    <element signature="method#getStoreRecipeList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doVerifyRecipeBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#22211#22212#0" expanded="true" />
-                    <element signature="e#22277#22278#0" expanded="true" />
-                    <element signature="e#23430#23431#0" expanded="true" />
-                    <element signature="e#23496#23497#0" expanded="true" />
-                    <element signature="method#getStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getPDAStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getPDAStoreVerifyDtl#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doPADRecipeConfirm#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="class#36657:37903" expanded="false" />
-                    <element signature="method#doPDARecipeConfirmList#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doRecipeBillGoods#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#44866#44867#0" expanded="true" />
-                    <element signature="e#44928#44929#0" expanded="true" />
-                    <element signature="e#45290#45291#0" expanded="true" />
-                    <element signature="e#45352#45353#0" expanded="true" />
-                    <element signature="method#doQueryStoreWare#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getDeliverMethod#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#54579#54580#0" expanded="true" />
-                    <element signature="e#54642#54643#0" expanded="true" />
-                    <element signature="method#getDeliverBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getDeliverDtl#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#doVerifyDeliverBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="method#getNotesDeliverBill#0;class#GoodsDao#0" expanded="false" />
-                    <element signature="e#69574#69582#0" expanded="true" />
-                    <element signature="e#69702#69720#0" expanded="true" />
-                    <element signature="e#69779#69796#0" expanded="true" />
-                    <element signature="e#72028#73089#0" expanded="true" />
-                    <element signature="e#73088#73089#0" expanded="true" />
-                    <element signature="e#73605#74490#0" expanded="true" />
-                    <element signature="e#74489#74490#0" expanded="true" />
-                    <element signature="e#75661#75669#0" expanded="true" />
-                    <element signature="e#77050#77415#0" expanded="true" />
-                    <element signature="e#77414#77415#0" expanded="true" />
-                    <element signature="e#77912#77920#0" expanded="true" />
-                    <element signature="e#77975#77990#0" expanded="true" />
-                    <element signature="e#78911#78912#0" expanded="true" />
-                    <element signature="e#78977#78978#0" expanded="true" />
-                    <marker date="1519449400222" expanded="true" signature="11091:11205" ph="SELECT wi_co... ware_invoicebill" />
-                    <marker date="1519449400222" expanded="true" signature="12102:12219" ph="SELECT g_nam... ware_goods" />
-                    <marker date="1519449400222" expanded="true" signature="12102:12352" ph="SELECT g_nam... ware_goods" />
-                    <marker date="1519449400222" expanded="true" signature="14189:14409" ph="insert into pos_cloud.ware_invoicebill... " />
-                    <marker date="1519449400222" expanded="true" signature="15676:15845" ph="insert into pos_cloud.ware_invoicedtl... " />
-                    <marker date="1519449400222" expanded="true" signature="16952:17056" ph="update pos_cloud.ware_goods... " />
-                    <marker date="1519449400222" expanded="true" signature="49745:49863" ph="SELECT gdb_c... goods_deliverbill" />
-                    <marker date="1519449400222" expanded="true" signature="50733:50888" ph="SELECT g_nam... store_goods" />
-                    <marker date="1519449400222" expanded="true" signature="52354:52561" ph="insert into pos_cloud.goods_deliverbill... " />
-                    <marker date="1519449400222" expanded="true" signature="53590:53757" ph="insert into pos_cloud.goods_deliverdtl... " />
-                    <marker date="1519449400222" expanded="true" signature="62511:62708" ph="update pos_cloud.goods_deliverbill... " />
-                    <marker date="1519449400222" expanded="true" signature="63603:64381" ph="SELECT a.*,b... goods_deliverbill" />
-                    <marker date="1519449400222" expanded="true" signature="64459:65237" ph="SELECT a.*,b... goods_deliverbill" />
-                    <marker date="1519449400222" expanded="true" signature="65314:66092" ph="select a.*,b... goods_recipebill" />
-                    <marker date="1519449400222" expanded="true" signature="67901:67995" ph="SELECT * FRO... ware_invoicedtl" />
-                    <marker date="1519449400222" expanded="true" signature="70634:70748" ph="SELECT wi_co... ware_invoicebill" />
-                    <marker date="1519449400222" expanded="true" signature="71376:71600" ph="insert into pos_cloud.ware_invoicebill... " />
-                    <marker date="1519449400222" expanded="true" signature="73285:73466" ph="insert into pos_cloud.ware_invoicedtl... " />
-                    <marker date="1519449400222" expanded="true" signature="74537:74660" ph="update pos_cloud.store_goods... " />
-                    <marker date="1519449400222" expanded="true" signature="74796:75106" ph="update pos_cloud.goods_deliverbill... " />
-                    <marker date="1519449400222" expanded="true" signature="75936:76051" ph="SELECT scb_c... store_checkbill" />
-                    <marker date="1519449400222" expanded="true" signature="76858:76952" ph="insert into pos_cloud.store_checkbill... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="79" column="84" lean-forward="false" selection-start-line="79" selection-start-column="84" selection-end-line="79" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesgeer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gdstorerecipe.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorerecipe.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2112">
+              <caret line="189" column="39" lean-forward="true" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/SalesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/SalesDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8713">
+              <caret line="1383" column="57" lean-forward="false" selection-start-line="1381" selection-start-column="12" selection-end-line="1383" selection-end-column="57" />
+              <folding>
+                <element signature="method#getStoreGoods#0;class#GoodsDao#0" expanded="false" />
+                <element signature="e#4087#4095#0" expanded="true" />
+                <element signature="method#getWareInvoiceTab#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getGoodsStoreList#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getGoodsWiMethodList#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getStoreRecipeList#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#doVerifyRecipeBill#0;class#GoodsDao#0" expanded="false" />
+                <element signature="e#22211#22212#0" expanded="true" />
+                <element signature="e#22277#22278#0" expanded="true" />
+                <element signature="e#23430#23431#0" expanded="true" />
+                <element signature="e#23496#23497#0" expanded="true" />
+                <element signature="method#getStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getPDAStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getPDAStoreVerifyDtl#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#doPADRecipeConfirm#0;class#GoodsDao#0" expanded="false" />
+                <element signature="class#36657:37903" expanded="false" />
+                <element signature="method#doPDARecipeConfirmList#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#doRecipeBillGoods#0;class#GoodsDao#0" expanded="false" />
+                <element signature="e#44866#44867#0" expanded="true" />
+                <element signature="e#44928#44929#0" expanded="true" />
+                <element signature="e#45290#45291#0" expanded="true" />
+                <element signature="e#45352#45353#0" expanded="true" />
+                <element signature="method#doQueryStoreWare#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getDeliverMethod#0;class#GoodsDao#0" expanded="false" />
+                <element signature="e#54579#54580#0" expanded="true" />
+                <element signature="e#54642#54643#0" expanded="true" />
+                <element signature="method#getDeliverBill#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getDeliverDtl#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#doVerifyDeliverBill#0;class#GoodsDao#0" expanded="false" />
+                <element signature="method#getNotesDeliverBill#0;class#GoodsDao#0" expanded="false" />
+                <element signature="e#69574#69582#0" expanded="true" />
+                <element signature="e#69702#69720#0" expanded="true" />
+                <element signature="e#69779#69796#0" expanded="true" />
+                <element signature="e#75661#75669#0" expanded="true" />
+                <element signature="e#77912#77920#0" expanded="true" />
+                <element signature="e#77975#77990#0" expanded="true" />
+                <element signature="e#78911#78912#0" expanded="true" />
+                <element signature="e#78977#78978#0" expanded="true" />
+                <marker date="1519449400222" expanded="true" signature="11091:11205" ph="SELECT wi_co... ware_invoicebill" />
+                <marker date="1519449400222" expanded="true" signature="12102:12219" ph="SELECT g_nam... ware_goods" />
+                <marker date="1519449400222" expanded="true" signature="12102:12352" ph="SELECT g_nam... ware_goods" />
+                <marker date="1519449400222" expanded="true" signature="14189:14409" ph="insert into pos_cloud.ware_invoicebill... " />
+                <marker date="1519449400222" expanded="true" signature="15676:15845" ph="insert into pos_cloud.ware_invoicedtl... " />
+                <marker date="1519449400222" expanded="true" signature="16952:17056" ph="update pos_cloud.ware_goods... " />
+                <marker date="1519449400222" expanded="true" signature="49745:49863" ph="SELECT gdb_c... goods_deliverbill" />
+                <marker date="1519449400222" expanded="true" signature="50733:50888" ph="SELECT g_nam... store_goods" />
+                <marker date="1519449400222" expanded="true" signature="52354:52561" ph="insert into pos_cloud.goods_deliverbill... " />
+                <marker date="1519449400222" expanded="true" signature="53590:53757" ph="insert into pos_cloud.goods_deliverdtl... " />
+                <marker date="1519449400222" expanded="true" signature="62511:62708" ph="update pos_cloud.goods_deliverbill... " />
+                <marker date="1519449400222" expanded="true" signature="63603:64381" ph="SELECT a.*,b... goods_deliverbill" />
+                <marker date="1519449400222" expanded="true" signature="64459:65237" ph="SELECT a.*,b... goods_deliverbill" />
+                <marker date="1519449400222" expanded="true" signature="65314:66092" ph="select a.*,b... goods_recipebill" />
+                <marker date="1519449400222" expanded="true" signature="67901:67995" ph="SELECT * FRO... ware_invoicedtl" />
+                <marker date="1519449400222" expanded="true" signature="70634:70748" ph="SELECT wi_co... ware_invoicebill" />
+                <marker date="1519449400222" expanded="true" signature="71376:71600" ph="insert into pos_cloud.ware_invoicebill... " />
+                <marker date="1519449400222" expanded="true" signature="73285:73466" ph="insert into pos_cloud.ware_invoicedtl... " />
+                <marker date="1519449400222" expanded="true" signature="74537:74660" ph="update pos_cloud.store_goods... " />
+                <marker date="1519449400222" expanded="true" signature="74796:75106" ph="update pos_cloud.goods_deliverbill... " />
+                <marker date="1519449400222" expanded="true" signature="75936:76051" ph="SELECT scb_c... store_checkbill" />
+                <marker date="1519449400222" expanded="true" signature="76858:76952" ph="insert into pos_cloud.store_checkbill... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesBill.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesBill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesDtl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesDtl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="e#1551#1552#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesPrice.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesPrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -450,11 +331,13 @@
       <find>txbwl</find>
       <find>txbwlcode</find>
       <find>txbwlcode</find>
+      <find>2011</find>
     </findStrings>
     <replaceStrings>
       <replace>store</replace>
       <replace>Store</replace>
       <replace>gdb</replace>
+      <replace>2018</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -468,11 +351,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GemoInfo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GstoreInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GDutyInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GempInfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/geers/empmag.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/geers/GStoreList.java" />
@@ -511,14 +389,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorecheck.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/dao/SalesDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/controller/SalesController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesbill.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesDtl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesPrice.java" />
       </list>
     </option>
   </component>
@@ -535,9 +418,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="334" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="729" />
     <option name="height" value="839" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -732,7 +616,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cpos" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
@@ -765,23 +649,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="pagejs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
@@ -1013,7 +880,7 @@
       <workItem from="1517877787909" duration="33601000" />
       <workItem from="1517966109557" duration="88377000" />
       <workItem from="1518229862832" duration="25232000" />
-      <workItem from="1519042287363" duration="41411000" />
+      <workItem from="1519042287363" duration="51488000" />
     </task>
     <task id="LOCAL-00001" summary="GoodsJS info">
       <created>1519097082889</created>
@@ -1033,10 +900,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291997000" />
+    <option name="totallyTimeSpent" value="302074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="839" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="839" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1054,6 +921,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19241774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1064,7 +932,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1099,69 +966,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/StoreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="1012" column="0" lean-forward="false" selection-start-line="1012" selection-start-column="0" selection-end-line="1012" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="137" column="61" lean-forward="false" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/StoreDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="62" column="36" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <marker date="1517580206035" expanded="true" signature="804:1227" ph="SELECT a.emp... sta_employee" />
-            <marker date="1517580206035" expanded="true" signature="2754:2863" ph="insert into pos_cloud.log_login... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GeerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="340" column="72" lean-forward="false" selection-start-line="340" selection-start-column="55" selection-end-line="340" selection-end-column="74" />
-          <folding>
-            <marker date="1517884966443" expanded="true" signature="1000:1234" ph="SELECT * FRO... sta_employee" />
-            <marker date="1517884966443" expanded="true" signature="2559:2612" ph="SELECT store... sta_store" />
-            <marker date="1517884966443" expanded="true" signature="3362:3397" ph="SELECT * FRO... sta_empduty" />
-            <marker date="1517884966443" expanded="true" signature="4306:4425" ph="update pos_cloud.sta_employee... " />
-            <marker date="1517884966443" expanded="true" signature="5692:5808" ph="select emp_c... sta_employee" />
-            <marker date="1517884966443" expanded="true" signature="6603:6785" ph="insert into pos_cloud.sta_employee... " />
-            <marker date="1517884966443" expanded="true" signature="8189:8254" ph="update pos_cloud.sta_employee... " />
-            <marker date="1517884966443" expanded="true" signature="9361:9413" ph="delete from pos_cloud.sta_employee... " />
-            <marker date="1517884966443" expanded="true" signature="10401:10647" ph="SELECT a.*,b... sta_store" />
-            <marker date="1517884966443" expanded="true" signature="12229:12307" ph="SELECT store... sta_store" />
-            <marker date="1517884966443" expanded="true" signature="12930:12965" ph="SELECT * FRO... sta_custype" />
-            <marker date="1517884966443" expanded="true" signature="13751:13918" ph="update pos_cloud.sta_store... " />
-            <marker date="1517884966443" expanded="true" signature="15435:15618" ph="insert into pos_cloud.sta_store... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GWTempUnique.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1426,10 +1230,10 @@
         <state relative-caret-position="147">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1458,31 +1262,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorerecipe.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="189" column="39" lean-forward="true" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsDeliverBill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
+            <element signature="e#795#796#0" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#996#997#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1115#1116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1612,32 +1408,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorecheck.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="3255">
           <caret line="231" column="51" lean-forward="false" selection-start-line="231" selection-start-column="29" selection-end-line="231" selection-end-column="51" />
           <folding>
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1870#1871#0" expanded="false" />
+            <element signature="e#1925#1926#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorerecipe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="189" column="39" lean-forward="true" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesbill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#sup#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/plugins/knob/jquery.knob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7943">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1483909437000" expanded="true" signature="6633:6693" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="79" column="84" lean-forward="false" selection-start-line="79" selection-start-column="84" selection-end-line="79" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/SalesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/SalesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="1429" column="44" lean-forward="false" selection-start-line="1429" selection-start-column="44" selection-end-line="1429" selection-end-column="44" />
+        <state relative-caret-position="8713">
+          <caret line="1383" column="57" lean-forward="false" selection-start-line="1381" selection-start-column="12" selection-end-line="1383" selection-end-column="57" />
           <folding>
-            <element signature="method#upWareGoods#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getStoreGoods#0;class#GoodsDao#0" expanded="false" />
             <element signature="e#4087#4095#0" expanded="true" />
-            <element signature="e#4198#4212#0" expanded="true" />
-            <element signature="e#4702#5570#0" expanded="true" />
-            <element signature="e#5569#5570#0" expanded="true" />
             <element signature="method#getWareInvoiceTab#0;class#GoodsDao#0" expanded="false" />
             <element signature="method#getGoodsStoreList#0;class#GoodsDao#0" expanded="false" />
             <element signature="method#getGoodsWiMethodList#0;class#GoodsDao#0" expanded="false" />
-            <element signature="method#doUpwiBillDtl#0;class#GoodsDao#0" expanded="false" />
-            <element signature="method#doVerifyBill#0;class#GoodsDao#0" expanded="false" />
             <element signature="method#getStoreRecipeList#0;class#GoodsDao#0" expanded="false" />
             <element signature="method#doVerifyRecipeBill#0;class#GoodsDao#0" expanded="false" />
             <element signature="e#22211#22212#0" expanded="true" />
@@ -1645,6 +1547,8 @@
             <element signature="e#23430#23431#0" expanded="true" />
             <element signature="e#23496#23497#0" expanded="true" />
             <element signature="method#getStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getPDAStoreVerifyList#0;class#GoodsDao#0" expanded="false" />
+            <element signature="method#getPDAStoreVerifyDtl#0;class#GoodsDao#0" expanded="false" />
             <element signature="method#doPADRecipeConfirm#0;class#GoodsDao#0" expanded="false" />
             <element signature="class#36657:37903" expanded="false" />
             <element signature="method#doPDARecipeConfirmList#0;class#GoodsDao#0" expanded="false" />
@@ -1661,34 +1565,29 @@
             <element signature="method#getDeliverDtl#0;class#GoodsDao#0" expanded="false" />
             <element signature="method#doVerifyDeliverBill#0;class#GoodsDao#0" expanded="false" />
             <element signature="method#getNotesDeliverBill#0;class#GoodsDao#0" expanded="false" />
-            <element signature="method#doCreatDeliver#0;class#GoodsDao#0" expanded="false" />
-            <element signature="method#getPDADeliverInfo#0;class#GoodsDao#0" expanded="false" />
             <element signature="e#69574#69582#0" expanded="true" />
             <element signature="e#69702#69720#0" expanded="true" />
             <element signature="e#69779#69796#0" expanded="true" />
-            <element signature="e#72028#73089#0" expanded="true" />
-            <element signature="e#73088#73089#0" expanded="true" />
-            <element signature="e#73605#74490#0" expanded="true" />
-            <element signature="e#74489#74490#0" expanded="true" />
             <element signature="e#75661#75669#0" expanded="true" />
-            <element signature="e#77050#77415#0" expanded="true" />
-            <element signature="e#77414#77415#0" expanded="true" />
             <element signature="e#77912#77920#0" expanded="true" />
             <element signature="e#77975#77990#0" expanded="true" />
             <element signature="e#78911#78912#0" expanded="true" />
             <element signature="e#78977#78978#0" expanded="true" />
-            <marker date="1519449400222" expanded="true" signature="4260:4373" ph="SELECT store... store_goods" />
-            <marker date="1519449400222" expanded="true" signature="4558:4593" ph="SELECT * FRO... store_goods" />
-            <marker date="1519449400222" expanded="true" signature="4558:4643" ph="SELECT * FRO... store_goods" />
-            <marker date="1519449400222" expanded="true" signature="27106:27821" ph="select a.*,b... goods_recipebill" />
-            <marker date="1519449400222" expanded="true" signature="27899:28640" ph="select a.*,b... goods_recipebill" />
-            <marker date="1519449400222" expanded="true" signature="28717:29457" ph="select a.*,b... goods_recipebill" />
-            <marker date="1519449400222" expanded="true" signature="31084:31175" ph="SELECT * FRO... ware_invoicedtl" />
-            <marker date="1519449400222" expanded="true" signature="32963:33034" ph="SELECT * FRO... ware_invoicedtl" />
+            <marker date="1519449400222" expanded="true" signature="11091:11205" ph="SELECT wi_co... ware_invoicebill" />
+            <marker date="1519449400222" expanded="true" signature="12102:12219" ph="SELECT g_nam... ware_goods" />
+            <marker date="1519449400222" expanded="true" signature="12102:12352" ph="SELECT g_nam... ware_goods" />
+            <marker date="1519449400222" expanded="true" signature="14189:14409" ph="insert into pos_cloud.ware_invoicebill... " />
+            <marker date="1519449400222" expanded="true" signature="15676:15845" ph="insert into pos_cloud.ware_invoicedtl... " />
+            <marker date="1519449400222" expanded="true" signature="16952:17056" ph="update pos_cloud.ware_goods... " />
             <marker date="1519449400222" expanded="true" signature="49745:49863" ph="SELECT gdb_c... goods_deliverbill" />
             <marker date="1519449400222" expanded="true" signature="50733:50888" ph="SELECT g_nam... store_goods" />
             <marker date="1519449400222" expanded="true" signature="52354:52561" ph="insert into pos_cloud.goods_deliverbill... " />
             <marker date="1519449400222" expanded="true" signature="53590:53757" ph="insert into pos_cloud.goods_deliverdtl... " />
+            <marker date="1519449400222" expanded="true" signature="62511:62708" ph="update pos_cloud.goods_deliverbill... " />
+            <marker date="1519449400222" expanded="true" signature="63603:64381" ph="SELECT a.*,b... goods_deliverbill" />
+            <marker date="1519449400222" expanded="true" signature="64459:65237" ph="SELECT a.*,b... goods_deliverbill" />
+            <marker date="1519449400222" expanded="true" signature="65314:66092" ph="select a.*,b... goods_recipebill" />
+            <marker date="1519449400222" expanded="true" signature="67901:67995" ph="SELECT * FRO... ware_invoicedtl" />
             <marker date="1519449400222" expanded="true" signature="70634:70748" ph="SELECT wi_co... ware_invoicebill" />
             <marker date="1519449400222" expanded="true" signature="71376:71600" ph="insert into pos_cloud.ware_invoicebill... " />
             <marker date="1519449400222" expanded="true" signature="73285:73466" ph="insert into pos_cloud.ware_invoicedtl... " />
@@ -1696,76 +1595,130 @@
             <marker date="1519449400222" expanded="true" signature="74796:75106" ph="update pos_cloud.goods_deliverbill... " />
             <marker date="1519449400222" expanded="true" signature="75936:76051" ph="SELECT scb_c... store_checkbill" />
             <marker date="1519449400222" expanded="true" signature="76858:76952" ph="insert into pos_cloud.store_checkbill... " />
-            <marker date="1519449400222" expanded="true" signature="78311:78389" ph="insert into pos_cloud.store_checkdtl... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-diaprtcher-srervlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesBill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <element signature="e#2396#2418#0" expanded="true" />
-            <element signature="e#2460#2474#0" expanded="true" />
-            <element signature="e#2517#2536#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesDtl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/SalesPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorecheck.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesbill.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="210" column="106" lean-forward="false" selection-start-line="210" selection-start-column="106" selection-end-line="210" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

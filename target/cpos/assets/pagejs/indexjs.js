@@ -28,9 +28,17 @@ function pageEmployeeMag(){
 function pageGeersMag() {
     addTabs({id:'33',title:'基础配置',close:true,url:'geers/pggeersmag'});
 }
+function pageSalesBill() {
+    addTabs({id:'41',title:'销售开单',close:true,url:'sales/pgsalesbill'});
+}
+function pageSalesCount() {
+    addTabs({id:'42',title:'销售统计',close:true,url:'sales/pgsalescount'});
+}
+function pageSalesGeer() {
+    addTabs({id:'43',title:'销售配置',close:true,url:'sales/pgsalesgeer'});
+}
 function PagesUpdateAPP() {
-    addTabs({id:'9',title:'上传APP',close: true,url:'pages/updateapp'})
-
+    addTabs({id:'9',title:'上传APP',close: true,url:'pages/updateapp'});
 }
 
 function dltUpApp() {

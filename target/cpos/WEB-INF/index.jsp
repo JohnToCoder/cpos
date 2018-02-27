@@ -76,6 +76,8 @@
     <script src="<%=request.getContextPath() %>/assets/dist/js/app.js"></script>
     <!--ChartJS-->
     <script src="<%=request.getContextPath() %>/assets/plugins/chartjs/Chart.js"></script>
+    <!--Knob-->
+    <script src="<%=request.getContextPath() %>/assets/plugins/knob/jquery.knob.js"></script>
     <!-- bootstrap datepicker -->
     <script src="<%=request.getContextPath() %>/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
     <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table.js"></script>
@@ -206,9 +208,9 @@
 				</span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="javascript:void(0)" onclick="pageStoreMag()"><i class="fa fa-crop"></i> 销售开单</a></li>
-                <li><a href="javascript:void(0)" onclick="pageEmployeeMag()"><i class="fa fa-user-plus"></i> 销售统计</a></li>
-                <li><a href="javascript:void(0)" onclick="pageGeersMag()"><i class="fa fa-gears"></i> 基础配置</a></li>
+                <li><a href="javascript:void(0)" onclick="pageSalesBill()"><i class="fa fa-clipboard"></i> 销售开单</a></li>
+                <li><a href="javascript:void(0)" onclick="pageSalesCount()"><i class="fa fa-bar-chart"></i> 销售统计</a></li>
+                <li><a href="javascript:void(0)" onclick="pageSalesGeer()"><i class="fa fa-gears"></i> 销售配置</a></li>
 
               </ul>
             </li>

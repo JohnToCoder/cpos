@@ -23,4 +23,10 @@ public class PageController {
     public String geersGeerMag(){return "/geers/geersmag";}
     @RequestMapping(value = "/firstpages")
     public String firstPages(){return "firstpages";}
+    @RequestMapping(value = "/sales/pgsalesbill")
+    public String salesBill(){return "/sales/salesbill";}
+    @RequestMapping(value = "/sales/pgsalescount")
+    public String salesCount(){return "/sales/salescount";}
+    @RequestMapping(value = "/sales/pgsalesgeer")
+    public String salesGeer(){return "/sales/salesgeer";}
 }

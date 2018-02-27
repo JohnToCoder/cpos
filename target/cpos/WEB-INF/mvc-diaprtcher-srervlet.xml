@@ -53,4 +53,5 @@
     <bean id="StoreDao" class="com.cpos.dao.StoreDao"/>
     <bean id="GoodsDao" class="com.cpos.dao.GoodsDao"/>
     <bean id="GeerDao" class="com.cpos.dao.GeerDao"/>
+    <bean id="SalesDao" class="com.cpos.dao.SalesDao"/>
 </beans>
