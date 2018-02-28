@@ -5,10 +5,36 @@ public class SalesPrice {
     private String size;
     private String proName;
     private String color;
+    private String style;
     private String listPrice;
     private String curPrice;
     private String discount;
-    private String gmtCreat;
+    private String storeCode;
+    private String storeName;
+
+    public String getStyle() {
+        return style;
+    }
+
+    public void setStyle(String style) {
+        this.style = style;
+    }
+
+    public String getStoreCode() {
+        return storeCode;
+    }
+
+    public void setStoreCode(String storeCode) {
+        this.storeCode = storeCode;
+    }
+
+    public String getStoreName() {
+        return storeName;
+    }
+
+    public void setStoreName(String storeName) {
+        this.storeName = storeName;
+    }
 
     public String getSku() {
         return sku;
@@ -66,11 +92,4 @@ public class SalesPrice {
         this.discount = discount;
     }
 
-    public String getGmtCreat() {
-        return gmtCreat;
-    }
-
-    public void setGmtCreat(String gmtCreat) {
-        this.gmtCreat = gmtCreat;
-    }
 }

@@ -6,10 +6,27 @@ public class SalesDtl {
     private String size;
     private String proName;
     private String color;
+    private String style;
     private String listPrice;
     private String curPrice;
-    private String saleEPCs;
+    private String epc;
     private String gmtCreat;
+
+    public String getEpc() {
+        return epc;
+    }
+
+    public void setEpc(String epc) {
+        this.epc = epc;
+    }
+
+    public String getStyle() {
+        return style;
+    }
+
+    public void setStyle(String style) {
+        this.style = style;
+    }
 
     public String getGmtCreat() {
         return gmtCreat;
@@ -75,11 +92,4 @@ public class SalesDtl {
         this.curPrice = curPrice;
     }
 
-    public String getSaleEPCs() {
-        return saleEPCs;
-    }
-
-    public void setSaleEPCs(String saleEPCs) {
-        this.saleEPCs = saleEPCs;
-    }
 }

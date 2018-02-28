@@ -39,6 +39,7 @@
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="<%=request.getContextPath() %>/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
     <link rel="stylesheet" href="<%=request.getContextPath() %>/assets/bootstrap/css/bootstrap-table.css">
+	<link rel="stylesheet" href="<%=request.getContextPath() %>/assets/bootstrap/css/bootstrap-editable.css">
 
     <!-- jQuery 2.2.3 -->
     <script src="<%=request.getContextPath() %>/assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
@@ -85,9 +86,12 @@
     <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-zh-CN.js"></script>
     <script src="<%=request.getContextPath() %>/assets/bootstrap/js/tableExport.js"></script>
     <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-tab.js"></script>
+	<script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-editable.js"></script>
+    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-editable.js"></script>
     <script src="<%=request.getContextPath() %>/assets/pagejs/indexjs.js"></script>
     <script src="<%=request.getContextPath() %>/assets/pagejs/geersjs.js"></script>
     <script src="<%=request.getContextPath() %>/assets/pagejs/goodsjs.js"></script>
+    <script src="<%=request.getContextPath() %>/assets/pagejs/salesjs.js"></script>
   </head>
   <body class="hold-transition skin-blue sidebar-mini" onload="initpages()" >
     <div class="wrapper">
