@@ -64,7 +64,7 @@ public class SalesDao {
         ResultInfo<String> resultInfo = new ResultInfo<String>();
         try{
             Date insdates = new Date();
-            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strdate = fins.format(insdates);
             String sqlc = "SELECT count(*) FROM pos_cloud.store_salesprice where g_sku='"+strsku+"';";
             String sqlins = "";
@@ -157,7 +157,7 @@ public class SalesDao {
                 strsbcode = "S"+salesBill.getStoreCode()+strl+String.format("%03d",1);
             }
             Date insdates = new Date();
-            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strdate = fins.format(insdates);
 
             String strinsbill = "insert into pos_cloud.store_salesbill(s_billno,s_totalprice,s_totalnum,s_storecode,s_empcode,gmt_creat)values(?,?,?,?,?,?)";
@@ -197,6 +197,10 @@ public class SalesDao {
                     return finalListsdtl.size();
                 }
             });
+            for(int i =0;i<listsdtl.size();i++){
+                String strupdate = "update pos_cloud.store_goods set isstate = '2' , store_outdt ='"+strdate+"' where store_code = '"+salesBill.getStoreCode()+"' and g_unique='"+listsdtl.get(i).getEpc()+"'";
+                jdbcTemplate.update(strupdate);
+            }
             resultInfo.setCode(0);
             resultInfo.setCount(1);
             resultInfo.setData("OK");
@@ -214,7 +218,7 @@ public class SalesDao {
         try{
             String strsql = "SELECT a.*,b.emp_name FROM pos_cloud.store_salesbill a \n" +
                     "left join pos_cloud.sta_employee b on a.s_empcode = b.emp_code\n" +
-                    "where a.s_storecode ='"+strstorecode+"' and a.gmt_creat between '"+strstartdt+"' and '"+strfinishdt+"';";
+                    "where a.s_storecode ='"+strstorecode+"' and a.gmt_creat between '"+strstartdt+"' and DATE_ADD('"+strfinishdt+"',INTERVAL 1 DAY); ;";
             listBill = jdbcTemplate.query(strsql, new ParameterizedRowMapper<SalesBill>() {
                 @Override
                 public SalesBill mapRow(ResultSet rs, int rowNum) throws SQLException {

@@ -96,7 +96,7 @@ public class GeerDao {
 
             final GempInfo gm = (GempInfo) JSONObject.toBean(JSONObject.fromObject(stremp),GempInfo.class);
             Date date = new Date();
-            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strDate = f.format(date);
             String strsql = "update pos_cloud.sta_employee set emp_name=?,store_code=?,emp_duty=?,emp_mail=?,emp_tel=?,gmt_modify=? where emp_code=?";
             jdbcTemplate.update(strsql, new PreparedStatementSetter() {
@@ -142,7 +142,7 @@ public class GeerDao {
             }
             gm.setEmpPsw("1234");
             Date date = new Date();
-            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strDate = f.format(date);
             String strinssql = "insert into pos_cloud.sta_employee (emp_code,emp_name,store_code,emp_duty,emp_psw,emp_mail,emp_tel,gmt_creat,gmt_modify,isquery)\n" +
                     "values(?,?,?,?,?,?,?,?,?,?);";
@@ -305,7 +305,7 @@ public class GeerDao {
                     "store_tel=?,store_type=?,gmt_modify=? where store_code=?";
             final GStoreTab finalgt = gt;
             Date date = new Date();
-            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strDate = f.format(date);
             jdbcTemplate.update(strsql, new PreparedStatementSetter() {
                 @Override
@@ -338,7 +338,7 @@ public class GeerDao {
             String strsql = "insert into pos_cloud.sta_store (store_code,store_name,store_pcode,store_area,store_addr,store_tel,store_type,gmt_creat,gmt_modify)\n" +
                     "values(?,?,?,?,?,?,?,?,?)";
             Date date = new Date();
-            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strDate = f.format(date);
             jdbcTemplate.update(strsql, new PreparedStatementSetter() {
                 @Override

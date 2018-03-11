@@ -60,7 +60,7 @@ public class UserDao {
     public void loginlog(final String strhost, final String strip, final int strport, final String empCode, final String strinfo) {
         String strins = "insert into pos_cloud.log_login (log_host,log_ip,log_port,log_empcode,log_info,gmt_creat) values(?,?,?,?,?,?)";
         Date date = new Date();
-        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         final String strDate = f.format(date);
         jdbcTemplate.update(strins, new PreparedStatementSetter() {
             @Override

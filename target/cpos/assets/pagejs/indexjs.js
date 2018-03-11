@@ -37,6 +37,18 @@ function pageSalesCount() {
 function pageSalesGeer() {
     addTabs({id:'43',title:'销售配置',close:true,url:'sales/pgsalesgeer'});
 }
+function pageAnalysisData() {
+    addTabs({id:'51',title:'试穿数据报表',close:true,url:'analysis/pagebasedata'});
+}
+function pageAnalysisSales() {
+    addTabs({id:'52',title:'销售数据分析',close:true,url:'analysis/pagesalesdata'});
+}
+function pageTryAnalysis() {
+    addTabs({id:'53',title:'试穿数据分析',close:true,url:'analysis/pagetryanalysis'});
+}
+function pageTrySales() {
+    addTabs({id:'54',title:'销售销售比',close:true,url:'analysis/pagesalestry'});
+}
 function PagesUpdateAPP() {
     addTabs({id:'9',title:'上传APP',close: true,url:'pages/updateapp'});
 }

@@ -50,9 +50,15 @@ public class GoodsController {
     //上传仓库库存信息
     @RequestMapping(value = "/goods/upwaregoods")
     @ResponseBody
-    public ResultInfo<String> upWareGoods(HttpServletRequest request){
-        String strginfo = request.getParameter("ginfo");
+    public ResultInfo<String> upWareGoods(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        String strginfo = jsonObject.getString("data");
         return goodsDao.upWareGoods(strginfo);
+    }
+    //查询仓库库存信息
+    @RequestMapping(value = "/goods/getwaregoods",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String getWareGoods(HttpServletRequest request){
+        return goodsDao.getWareGoods();
     }
     //获取库存信息
     @RequestMapping(value = "/goods/getstoregoods",produces = {"text/html;charset=UTF-8;","application/json;"})
@@ -61,6 +67,16 @@ public class GoodsController {
         String strstore = request.getParameter("shopCode");
         String strlastdate = request.getParameter("lastUpTime");
         return goodsDao.getStoreGoods(strstore,strlastdate);
+    }
+    //条件查询库存信息
+    @RequestMapping(value = "/goods/doqueryalltwg",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doQueryAlltwg(HttpServletRequest request, @RequestBody JSONObject jsonObject){
+        EmpInfo empInfo = (EmpInfo) request.getSession().getAttribute("emp");
+        String strsku = jsonObject.getString("sku");
+        String strstyle = jsonObject.getString("style");
+        String strsize = jsonObject.getString("size");
+        return goodsDao.doQueryAlltwg(empInfo.getStoreCode(),strsku,strstyle,strsize);
     }
     //上传仓库发货单信息
     @RequestMapping(value = "/goods/doupwibilldtl",produces = {"text/html;charset=UTF-8;","application/json;"})
@@ -235,5 +251,15 @@ public class GoodsController {
         String strcheckbill = jsonObject.getString("checkbillNo");
         String strcheckdata = jsonObject.getString("data");
         return goodsDao.doUpPDACheckData(strcheckbill,strcheckdata);
+    }
+    //盘点单查询
+    @RequestMapping(value = "/goods/doquerystorecheck",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doQueryStoreCheck(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        EmpInfo empInfo = (EmpInfo) request.getSession().getAttribute("emp");
+        String strscbcode = jsonObject.getString("scbcode");
+        String strstartdt = jsonObject.getString("startdt");
+        String strenddt = jsonObject.getString("enddt");
+        return goodsDao.doQueryStoreCheck(empInfo.getStoreCode(),strscbcode,strstartdt,strenddt);
     }
 }

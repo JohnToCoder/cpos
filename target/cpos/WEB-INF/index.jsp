@@ -88,17 +88,20 @@
     <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-tab.js"></script>
 	<script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-editable.js"></script>
     <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-editable.js"></script>
+    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/echarts-all.js"></script>
+    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/macarons.js"></script>
     <script src="<%=request.getContextPath() %>/assets/pagejs/indexjs.js"></script>
     <script src="<%=request.getContextPath() %>/assets/pagejs/geersjs.js"></script>
     <script src="<%=request.getContextPath() %>/assets/pagejs/goodsjs.js"></script>
     <script src="<%=request.getContextPath() %>/assets/pagejs/salesjs.js"></script>
+    <script src="<%=request.getContextPath() %>/assets/pagejs/analysisjs.js"></script>
   </head>
   <body class="hold-transition skin-blue sidebar-mini" onload="initpages()" >
     <div class="wrapper">
       <header class="main-header">
         <a href="<%=request.getContextPath() %>/" class="logo">
-          <span class="logo-mini">POS</span>
-          <span class="logo-lg"><b>智慧门店管理</b>CPOS</span>
+          <span class="logo-mini">ETECH</span>
+          <span class="logo-lg"><b>智慧门店管理系统</b></span>
         </a>
         <nav class="navbar navbar-static-top">
           <a href="javascript:void(0)" class="sidebar-toggle" data-toggle="offcanvas" role="button">
@@ -186,7 +189,7 @@
           </form>
           <!-- /.search form -->
           <ul class="sidebar-menu" id="mainmenu">
-            <li class="header"><i class="fa fa-home"><span> CPOS 主菜单</span></i></li>
+            <li class="header"><i class="fa fa-home"><span> 智慧门店 主菜单</span></i></li>
             <li class=" treeview">
               <a href="javascript:void(0)" >
                 <i class="fa fa-object-group"></i>
@@ -216,6 +219,21 @@
                 <li><a href="javascript:void(0)" onclick="pageSalesCount()"><i class="fa fa-bar-chart"></i> 销售统计</a></li>
                 <li><a href="javascript:void(0)" onclick="pageSalesGeer()"><i class="fa fa-gears"></i> 销售配置</a></li>
 
+              </ul>
+            </li>
+            <li class=" treeview">
+              <a href="javascript:void(0)" >
+                <i class="fa fa-line-chart"></i>
+                <span>数据分析</span>
+                <span class="pull-right-container">
+					<i class="fa fa-angle-left pull-right"></i>
+				</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="javascript:void(0)" onclick="pageAnalysisData()"><i class="fa fa-cloud-upload"></i> 试穿数据采集</a></li>
+                <li><a href="javascript:void(0)" onclick="pageAnalysisSales()"><i class="fa fa-bar-chart"></i> 销售数据分析</a></li>
+                <li><a href="javascript:void(0)" onclick="pageTryAnalysis()"><i class="fa fa-pie-chart"></i> 试穿分析</a></li>
+                <li><a href="javascript:void(0)" onclick="pageTrySales()"><i class="fa fa-sellsy"></i> 试穿销售比</a></li>
               </ul>
             </li>
             <li class=" treeview">
@@ -267,7 +285,7 @@
 
       <footer class="main-footer">
         <div class="pull-right hidden-xs"><b>Version</b> 1.0.1</div>
-        <strong>Copyright &copy; 2014-2018 <a href="http://www.echitec.com">云智慧门店管理系统</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2014-2018 <a href="http://www.echitec.com">深圳市简逸信息技术有限公司</a>.</strong> All rights reserved.
       </footer>
       <!-- Control Sidebar -->
     </div>

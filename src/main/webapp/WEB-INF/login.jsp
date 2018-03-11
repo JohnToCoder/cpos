@@ -25,7 +25,7 @@
 		<body class="hold-transition login-page">
 			<div class="login-box">
 				<div class="login-logo">
-					<a href="<%=request.getContextPath() %>/"><b>CPOS 云智慧门店</b></a>
+					<a href="<%=request.getContextPath() %>/"><b> 智慧门店管理系统</b></a>
 				</div>
 				<!-- /.login-logo -->
 				<div class="login-box-body">

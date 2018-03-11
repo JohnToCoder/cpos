@@ -55,7 +55,7 @@ public class GoodsDao {
                     "values(?,?,?,?,?,?,?,?,?,?,?,?,?)";
             final List<StoreGoods> finalListg = listg;
             Date date = new Date();
-            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strDate = f.format(date);
             intins = jdbcTemplate.batchUpdate(strinssql, new BatchPreparedStatementSetter() {
                 @Override
@@ -288,7 +288,7 @@ public class GoodsDao {
                     "values(?,?,?,?,?,?,?,?,?,?,?,?,?);";
             final GWInvoiceBill finalWibill = wibill;
             Date insdates = new Date();
-            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strdate = fins.format(insdates);
             jdbcTemplate.update(strinswib, new PreparedStatementSetter() {
                 @Override
@@ -423,7 +423,7 @@ public class GoodsDao {
         try{
 
             Date insdates = new Date();
-            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strdate = fins.format(insdates);
             listgrb = JSONArray.toList(JSONArray.fromObject(strreb),GoodsRecipeBill.class);
 
@@ -644,7 +644,7 @@ public class GoodsDao {
         ResultInfo<String> resultInfo = new ResultInfo<String>();
         String strupdate = "update pos_cloud.goods_recipebill set recipe_count ='"+strrecipecount+"',recipe_desc='"+strrecipedesc+"' where wi_code = '"+strwicode+"';";
         Date insdates = new Date();
-        SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         final String strdate = fins.format(insdates);
         try {
             if (strrecipedesc.equals("OK")) {
@@ -725,7 +725,7 @@ public class GoodsDao {
             if(listrc.size() > 0){
                 for(int i = 0;i<listrc.size();i++){
                     Date insdates = new Date();
-                    SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                    SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                     final String strdate = fins.format(insdates);
                     if (listrc.get(i).getRecipedesc().equals("OK")) {
 
@@ -959,7 +959,7 @@ public class GoodsDao {
                 }
             }
             Date insdates = new Date();
-            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strdate = fins.format(insdates);
             String strinsbill = "insert into pos_cloud.goods_deliverbill (gdb_code,recipe_store,invoice_store,gdb_count,cargotype,isverify,isinvoice,isstorage,gdb_emp,gmt_creat,intype)\n" +
                     "values(?,?,?,?,?,?,?,?,?,?,?)";
@@ -1294,7 +1294,7 @@ public class GoodsDao {
                 String strinswib = "insert into pos_cloud.ware_invoicebill (wi_code,ware_code,store_code,wl_code,wi_method,wi_count,wi_emp,isverify,isstorage,intype,cargotype,gmt_creat,gmt_modify)\n" +
                         "values(?,?,?,?,?,?,?,?,?,?,?,?,?);";
                 Date insdates = new Date();
-                SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 final String strdate = fins.format(insdates);
                 final String finalStrwibcode = strwibcode;
                 final GoodsDeliverBill finalListgdbill = listgdbill.get(i);
@@ -1380,7 +1380,7 @@ public class GoodsDao {
                 strscbcode = "C"+strstorecode+strl+String.format("%02d",1);
             }
             Date insdates = new Date();
-            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strdate = fins.format(insdates);
             String sqlins = "insert into pos_cloud.store_checkbill (store_code,scb_code,scb_type,gmt_creat) values(?,?,?,?)";
             final String finalStrscbcode = strscbcode;
@@ -1388,7 +1388,7 @@ public class GoodsDao {
                 @Override
                 public void setValues(PreparedStatement ps) throws SQLException {
                     ps.setObject(1,strstorecode);
-                    ps.setObject(2, finalStrscbcode);
+                    ps.setObject(2,finalStrscbcode);
                     ps.setObject(3,strtype);
                     ps.setObject(4,strdate);
                 }
@@ -1409,7 +1409,7 @@ public class GoodsDao {
         List<GoodsCheckDtl> listdtl = new ArrayList<GoodsCheckDtl>();
         try{
             Date insdates = new Date();
-            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            SimpleDateFormat fins = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             final String strdate = fins.format(insdates);
             listdtl = JSONArray.toList(JSONArray.fromObject(strcheckdata),GoodsCheckDtl.class);
             String sqlins = "insert into pos_cloud.store_checkdtl(scb_code,scb_epc,gmt_creat) values(?,?,?)";
@@ -1433,6 +1433,122 @@ public class GoodsDao {
             resultInfo.setCode(1);
             resultInfo.setCount(1);
             resultInfo.setData(es.getMessage().toString());
+        }
+        return JSONObject.fromObject(resultInfo).toString();
+    }
+
+    public String getWareGoods() {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        List<StoreGoods> listsg = new ArrayList<StoreGoods>();
+        try {
+            String strsql = "SELECT * FROM pos_cloud.ware_goods;";
+            listsg = jdbcTemplate.query(strsql, new ParameterizedRowMapper<StoreGoods>() {
+                @Override
+                public StoreGoods mapRow(ResultSet rs, int rowNum) throws SQLException {
+                    StoreGoods sg = new StoreGoods();
+                    sg.setStoreCode(rs.getString("store_code"));
+                    sg.setgGroup(rs.getString("g_group"));
+                    sg.setgLocation(rs.getString("g_location"));
+                    sg.setgUnique(rs.getString("g_unique"));
+                    sg.setgSku(rs.getString("g_sku"));
+                    sg.setgName(rs.getString("g_name"));
+                    sg.setgStyle(rs.getString("g_style"));
+                    sg.setgColor(rs.getString("g_color"));
+                    sg.setgSize(rs.getString("g_size"));
+                    sg.setIsstate(rs.getString("isstate"));
+                    sg.setStoreIndt(rs.getString("store_indt"));
+                    sg.setStoreOutdt(rs.getString("store_outdt"));
+                    sg.setGmtCreat(rs.getString("gmt_creat"));
+                    return sg;
+                }
+            });
+            resultInfo.setCode(0);
+            resultInfo.setCount(listsg.size());
+            resultInfo.setData(JSONArray.fromObject(listsg).toString());
+        } catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.toString());
+        }
+        return JSONObject.fromObject(resultInfo).toString();
+    }
+
+    public String doQueryAlltwg(String storeCode, String strsku, String strstyle, String strsize) {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        List<GoodsStoreSearch> listsw = new ArrayList<GoodsStoreSearch>();
+        try {
+            String strsql = "SELECT * ,count(g_unique) as g_count FROM pos_cloud.ware_goods " +
+                    "where store_code like '%"+storeCode+"%' " +
+                    "and g_sku like '%"+strsku+"%' " +
+                    "and g_style like '%"+strstyle+"%' " +
+                    "and g_size like '%"+strsize+"%' group by g_sku;";
+            listsw = jdbcTemplate.query(strsql, new ParameterizedRowMapper<GoodsStoreSearch>() {
+                @Override
+                public GoodsStoreSearch mapRow(ResultSet rs, int rowNum) throws SQLException {
+                    GoodsStoreSearch gs = new GoodsStoreSearch();
+                    gs.setStoreCode(rs.getString("store_code"));
+                    gs.setgGroup(rs.getString("g_group"));
+                    gs.setgLocation(rs.getString("g_location"));
+                    gs.setgCount(rs.getString("g_count"));
+                    gs.setgSku(rs.getString("g_sku"));
+                    gs.setgName(rs.getString("g_name"));
+                    gs.setgStyle(rs.getString("g_style"));
+                    gs.setgColor(rs.getString("g_color"));
+                    gs.setgSize(rs.getString("g_size"));
+                    gs.setIsstate(rs.getString("isstate"));
+                    gs.setStoreIndt(rs.getString("store_indt"));
+                    gs.setStoreOutdt(rs.getString("store_outdt"));
+                    gs.setGmtCreat(rs.getString("gmt_creat"));
+                    return gs;
+                }
+            });
+            resultInfo.setCode(0);
+            resultInfo.setCount(listsw.size());
+            resultInfo.setData(JSONArray.fromObject(listsw).toString());
+        } catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.toString());
+        }
+        return JSONObject.fromObject(resultInfo).toString();
+    }
+
+    public String doQueryStoreCheck(String storeCode, String strscbcode, String strstartdt, String strenddt) {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        List<GoodsCheckBill> listcb = new ArrayList<GoodsCheckBill>();
+        try{
+            String strsql ="";
+            if(strstartdt == "" && strenddt == ""){
+                strsql= "SELECT * FROM pos_cloud.store_checkbill \n" +
+                        "where store_code = '"+storeCode+"' and scb_code like '%"+strscbcode+"%'";
+            }else {
+
+                strsql= "SELECT * FROM pos_cloud.store_checkbill \n" +
+                        "where store_code = '"+storeCode+"' and scb_code like '%"+strscbcode+"%' " +
+                        "and gmt_modify between '"+strstartdt+"' and '"+strenddt+"';";
+            }
+            listcb = jdbcTemplate.query(strsql, new ParameterizedRowMapper<GoodsCheckBill>() {
+                @Override
+                public GoodsCheckBill mapRow(ResultSet rs, int rowNum) throws SQLException {
+                    GoodsCheckBill cb = new GoodsCheckBill();
+                    cb.setShopCode(rs.getString("store_code"));
+                    cb.setScbCode(rs.getString("scb_code"));
+                    cb.setScbType(rs.getString("scb_type"));
+                    cb.setScbCount(rs.getString("scb_count"));
+                    cb.setScbDiff(rs.getString("scb_diff"));
+                    cb.setScbDes(rs.getString("scb_dec"));
+                    cb.setGmtModify(rs.getString("gmt_modify"));
+                    cb.setGmtCreat(rs.getString("gmt_creat"));
+                    return cb;
+                }
+            });
+            resultInfo.setCode(0);
+            resultInfo.setCount(listcb.size());
+            resultInfo.setData(JSONArray.fromObject(listcb).toString());
+        } catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.toString());
         }
         return JSONObject.fromObject(resultInfo).toString();
     }

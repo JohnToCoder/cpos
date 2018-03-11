@@ -6,7 +6,7 @@
     <context:component-scan base-package="com.cpos.controller"/>
     <context:component-scan base-package="com.cpos.classes"/>
     <context:component-scan base-package="com.cpos.dao"/>
-    <context:property-placeholder location="classpath:server.properties"/>
+    <context:property-placeholder location="classpath:mysql.properties"/>
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
     <mvc:resources mapping="/assets/*" location="/assets/"></mvc:resources>
@@ -54,4 +54,5 @@
     <bean id="GoodsDao" class="com.cpos.dao.GoodsDao"/>
     <bean id="GeerDao" class="com.cpos.dao.GeerDao"/>
     <bean id="SalesDao" class="com.cpos.dao.SalesDao"/>
+    <bean id="AnalysisDao" class="com.cpos.dao.AnalysisDao"/>
 </beans>

@@ -29,4 +29,13 @@ public class PageController {
     public String salesCount(){return "/sales/salescount";}
     @RequestMapping(value = "/sales/pgsalesgeer")
     public String salesGeer(){return "/sales/salesgeer";}
+    @RequestMapping(value = "/analysis/pagebasedata")
+    public String tryBaseData(){return "/analysis/analysisdata";}
+    @RequestMapping(value = "/analysis/pagesalesdata")
+    public String analysisSales(){return "/analysis/analysissales";}
+    @RequestMapping(value = "/analysis/pagetryanalysis")
+    public String analysisTry(){ return "/analysis/analysistry";}
+    @RequestMapping(value = "/analysis/pagesalestry")
+    public String analysisTrySales(){return "/analysis/analysistrysales";}
+
 }

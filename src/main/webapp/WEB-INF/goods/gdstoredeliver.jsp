@@ -119,9 +119,7 @@
 					<button id="btn_" type="button" class="btn btn-success" onclick="doVerifyDeliver()">
 						<span class="glyphicon glyphicon-save" aria-hidden="true"></span>确认收货
 					</button>
-					<button id="btn_delete" type="button" class="btn btn-danger" onclick="dltDeliverBill()">
-						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
-					</button>
+
 				</div>
 				<table id="tabverifydeliver" data-search="true" style="font-size: 10px">
 				</table>
@@ -151,12 +149,6 @@
 				<div id="notestoolbar" class="tool-bar">
 					<button id="btnnewinvoice" type="button" class="btn btn-info" onclick="doaddnewinvoice()">
 						<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新建发货单
-					</button>
-					<button id="btnsureinvoice" type="button" class="btn btn-success" onclick="dosureinvoice()">
-						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>确认发货
-					</button>
-					<button id="btnss" type="button" class="btn btn-success" onclick="doupcheck()">
-						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>上传盘点
 					</button>
 				</div>
 				<table id="tabnotesdeliver" data-search="true" style="font-size: 10px">

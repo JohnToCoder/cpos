@@ -349,6 +349,31 @@ function doVerifyWareInvoices() {
         });
     }
 }
+function querytabwaregoods() {
+    $('#tipwg').hide();
+    var strsku = $("#txballwhsku").val();
+    var strstyle = $("#txballwhstyle").val();
+    var strsize = $("#txballwhsize").val();
+    $.ajax({
+        url:'goods/doqueryalltwg',
+        type:'post',
+        contentType:'application/json; charset=UTF-8',
+        data:JSON.stringify({'sku':strsku,'style':strstyle,'size':strsize}),
+        success:function (data) {
+            var re = JSON.parse(data);
+            if(re.code == "0"){
+                if(re.count>0){
+                    $('#tabwaregoods').bootstrapTable("load", re.data);
+                }else{
+                    $('#tipwg').html("Tip:库存没有找到需要的货品").show();
+                }
+            }else{
+                alert(re.data);
+            }
+        }
+    });
+}
+
 //门店查询收货单
 function loadslcstorewcode() {
 
@@ -883,32 +908,27 @@ function doCreatInvoice(){
         }
     });
 }
-function dosureinvoice() {
+//门店盘点
+function doQueryStoreCheck() {
+    $('#querygdscTip').hide();
+    var strcode = $("#txbsccode").val();
+    var strstartdt = $("#scstartdt").val();
+    var strenddt = $("#scenddt").val();
     $.ajax({
+        url:'goods/doquerystorecheck',
         type:'post',
-        url:'goods/dopdaupdeliverinfo',
         contentType:'application/json; charset=UTF-8',
-        data:JSON.stringify({"code":0,"data":{"deliverBill":"[{\"wlCode\":\"SF001\",\"wlMethod\":\"1\",\"invoiceName\":\"南山茂业思加图\",\"gmtModify\":\"\",\"gdiEmp\":\"S019JP01\",\"isverify\":\"1\",\"gmtCreat\":\"2018-02-11 10:47:02.0\",\"gdbCount\":\"1\",\"isinvoice\":\"1\",\"recipeStore\":\"S018JP\",\"intype\":\"2\",\"intypedesc\":\"店到店\",\"cargodesc\":\"正常调货\",\"recipeName\":\"华强北天虹思加图\",\"gdbEmp\":\"S018JP01\",\"cargotype\":\"2\",\"lgMethod\":\"快递\",\"gdbCode\":\"S018JP180220001\",\"invoiceStore\":\"S019JP\",\"isstorage\":\"1\"}]","deliverDtl":"[{\"gdbName\":\"黑-油皮牛皮革男休闲鞋\",\"gdbSizeQty\":\"1\",\"gdbSize\":\"230\",\"gdbStyle\":\"85Y01\",\"gdbCode\":\"S018JP180220001\",\"gdbColor\":\"黑\",\"gdbSku\":\"WYW85Y01DU1AM7230\",\"gmtCreat\":\"\",\"gUnique\":\"201802030013000000000000\"}]"},"count":1}),
-        success:function(result) {
-            var oplist = JSON.parse(result);
-            if(oplist.code == 0) {
-
-                alert(oplist.data);
-            }
-        }
-    });
-}
-function doupcheck() {
-    $.ajax({
-        type:'post',
-        url:'goods/pda/upcheckdata',
-        contentType:'application/json; charset=UTF-8',
-        data:JSON.stringify({"count":1, "checkbillNo":"CS019JP18022405","data":[{"epc":"201801270001000000000000"},{"epc":"201801270002000000000000"}]}),
-        success:function(result) {
-            var oplist = JSON.parse(result);
-            if(oplist.code == 0) {
-
-                alert(oplist.data);
+        data:JSON.stringify({'scbcode':strcode,'startdt':strstartdt,'enddt':strenddt}),
+        success:function (data) {
+            var re = JSON.parse(data);
+            if(re.code == "0"){
+                if(re.count>0){
+                    $('#tabstorecheck').bootstrapTable("load", re.data);
+                }else{
+                    $('#querygdscTip').html("Tip:没有找到相关的盘点单").show();
+                }
+            }else{
+                alert(re.data);
             }
         }
     });
