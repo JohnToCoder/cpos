@@ -8,130 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5c0dcb-7fa3-4d2f-8a6d-f4fa90fd870b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AnalysisSales.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AnalysisTry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AnalysisTrySales.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AssalesTotal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AsstoreTotal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AsstyleStore.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AsstyleStoreNum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/AsstyleTop.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/analysis/Attimes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/AreaDeliverBill.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/AreaDeliverDtl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/EPC.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/PDAAgBill.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/sales/StoreMothReport.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/asstore.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/asstyle.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/asstylelast.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/asstylestore.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/asstyletop.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/attimes.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/clothing/clothupinfo.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdareagoods.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdwareinvoiceold.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/areagoods.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libs/Dump20180321.sql" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/classes/EmpInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/EmpInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsCheckBill.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsCheckBill.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsCheckDtl.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/classes/goods/GoodsCheckDtl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/controller/AnalysisController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/AnalysisController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/GoodsController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/PageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/controller/SalesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/SalesController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/dao/AnalysisDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/dao/AnalysisDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/dao/GoodsDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/dao/SalesDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/dao/SalesDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpos/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/cpos/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysisdata.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysisdata.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysissales.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysissales.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysistry.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysistry.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysistrysales.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/analysis/analysistrysales.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/firstpages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/firstpages.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorecheck.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstorecheck.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoredeliver.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdwareinvoice.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdwareinvoice.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salesgeer.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/updateapp.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/updateapp.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/analysisjs.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/analysisjs.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/geersjs.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/geersjs.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/goodsjs.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/indexjs.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/salesjs.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pagejs/salesjs.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/classes/EmpInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/classes/EmpInfo.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/classes/goods/GoodsCheckBill.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/classes/goods/GoodsCheckBill.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/classes/goods/GoodsCheckDtl.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/classes/goods/GoodsCheckDtl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/controller/AnalysisController.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/controller/AnalysisController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/controller/GoodsController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/controller/PageController.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/controller/PageController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/controller/SalesController.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/controller/SalesController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/AnalysisDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$36.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$36.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$37.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$37.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$38.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$38.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$39.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$39.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$40.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao$40.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/GoodsDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$1.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$2.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$3.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$4.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$5.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$6.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/SalesDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/UserDao$1.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/UserDao$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/UserDao$2.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/UserDao$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpos/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/cpos/dao/UserDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos.war" afterPath="$PROJECT_DIR$/target/cpos.war" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysisdata.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysisdata.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysissales.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysissales.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysistry.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysistry.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysistrysales.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/analysis/analysistrysales.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/classes/EmpInfo.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/classes/EmpInfo.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/classes/goods/GoodsCheckBill.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/classes/goods/GoodsCheckBill.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/classes/goods/GoodsCheckDtl.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/classes/goods/GoodsCheckDtl.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/AnalysisController.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/AnalysisController.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/GoodsController.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/PageController.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/PageController.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/SalesController.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/SalesController.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/UserController.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/AnalysisDao.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/AnalysisDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$36.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$36.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$37.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$37.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$38.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$38.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$39.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$39.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$40.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao$40.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/GoodsDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$1.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$2.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$3.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$4.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$5.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$6.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/SalesDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/UserDao$1.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/UserDao$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/UserDao$2.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/UserDao$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/classes/com/cpos/dao/UserDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/firstpages.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/firstpages.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdstorecheck.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdstorecheck.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdstoredeliver.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdstoredeliver.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdwareinvoice.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/goods/gdwareinvoice.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/login.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/sales/salescount.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/sales/salescount.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/sales/salesgeer.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/sales/salesgeer.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/WEB-INF/updateapp.jsp" afterPath="$PROJECT_DIR$/target/cpos/WEB-INF/updateapp.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/assets/pagejs/analysisjs.js" afterPath="$PROJECT_DIR$/target/cpos/assets/pagejs/analysisjs.js" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/assets/pagejs/geersjs.js" afterPath="$PROJECT_DIR$/target/cpos/assets/pagejs/geersjs.js" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/assets/pagejs/goodsjs.js" afterPath="$PROJECT_DIR$/target/cpos/assets/pagejs/goodsjs.js" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/assets/pagejs/indexjs.js" afterPath="$PROJECT_DIR$/target/cpos/assets/pagejs/indexjs.js" />
-      <change beforePath="$PROJECT_DIR$/target/cpos/assets/pagejs/salesjs.js" afterPath="$PROJECT_DIR$/target/cpos/assets/pagejs/salesjs.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="analysisjs.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="analysisjs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/analysisjs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="421" column="1" lean-forward="true" selection-start-line="421" selection-start-column="1" selection-end-line="421" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="794" column="1" lean-forward="false" selection-start-line="794" selection-start-column="1" selection-end-line="794" selection-end-column="1" />
               <folding>
                 <element signature="n#!!block;n#loadtabtrydata#0" expanded="false" />
                 <element signature="n#!!block;n#doanalysisdata#0" expanded="false" />
@@ -180,6 +58,16 @@
                 <element signature="n#!!block;n#loadattimes#0" expanded="false" />
                 <element signature="n#!!block;n#loadasstylestore#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dump20180321.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/Dump20180321.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -465,6 +353,11 @@
             <path>
               <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpos" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -487,80 +380,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cpos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="geers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="sales" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
@@ -568,23 +387,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="pagejs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
@@ -593,24 +395,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -635,11 +419,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java/com/cpos/classes" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/goods" />
       <recent name="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -834,7 +618,7 @@
       <workItem from="1520902963087" duration="32761000" />
       <workItem from="1521188026139" duration="73819000" />
       <workItem from="1521384035601" duration="1227000" />
-      <workItem from="1521419562094" duration="96793000" />
+      <workItem from="1521419562094" duration="96978000" />
     </task>
     <task id="LOCAL-00001" summary="GoodsJS info">
       <created>1519097082889</created>
@@ -864,11 +648,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519803456525</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0321">
+      <created>1521632331626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521632331628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="645978000" />
+    <option name="totallyTimeSpent" value="646163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -881,6 +672,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21121252" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
@@ -903,7 +695,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16523606" sideWeight="0.49196786" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16523606" sideWeight="0.49196786" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28490028" sideWeight="0.50803214" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28490028" sideWeight="0.50793654" order="2" side_tool="true" content_ui="tabs" />
@@ -986,7 +778,8 @@
     <MESSAGE value="GoodDAO" />
     <MESSAGE value="Sales class" />
     <MESSAGE value="0228" />
-    <option name="LAST_COMMIT_MESSAGE" value="0228" />
+    <MESSAGE value="0321" />
+    <option name="LAST_COMMIT_MESSAGE" value="0321" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -999,18 +792,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sales/salescount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="85" column="12" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="127" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1521426360974" expanded="true" signature="7295:7310" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/goods/gdstoreware.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -1490,24 +1271,24 @@
             <element signature="method#getAssalesStore#0;class#AnalysisDao#0" expanded="false" />
             <element signature="method#getAssalesTotal#0;class#AnalysisDao#0" expanded="false" />
             <element signature="method#getAssalesStyle#0;class#AnalysisDao#0" expanded="false" />
-            <element signature="e#25146#25160#0" expanded="true" />
-            <element signature="e#25971#26375#0" expanded="true" />
-            <element signature="e#26374#26375#0" expanded="true" />
-            <element signature="e#26490#26507#0" expanded="true" />
-            <element signature="e#26572#26589#0" expanded="true" />
-            <element signature="e#27195#27720#0" expanded="true" />
-            <element signature="e#27719#27720#0" expanded="true" />
-            <element signature="e#28661#29185#0" expanded="true" />
-            <element signature="e#29184#29185#0" expanded="true" />
-            <element signature="e#30688#30702#0" expanded="true" />
-            <element signature="e#31513#31917#0" expanded="true" />
-            <element signature="e#31916#31917#0" expanded="true" />
-            <element signature="e#32032#32049#0" expanded="true" />
-            <element signature="e#32114#32131#0" expanded="true" />
-            <element signature="e#32737#33262#0" expanded="true" />
-            <element signature="e#33261#33262#0" expanded="true" />
-            <element signature="e#34203#34727#0" expanded="true" />
-            <element signature="e#34726#34727#0" expanded="true" />
+            <element signature="e#25146#25160#0" expanded="false" />
+            <element signature="e#25971#26375#0" expanded="false" />
+            <element signature="e#26374#26375#0" expanded="false" />
+            <element signature="e#26490#26507#0" expanded="false" />
+            <element signature="e#26572#26589#0" expanded="false" />
+            <element signature="e#27195#27720#0" expanded="false" />
+            <element signature="e#27719#27720#0" expanded="false" />
+            <element signature="e#28661#29185#0" expanded="false" />
+            <element signature="e#29184#29185#0" expanded="false" />
+            <element signature="e#30688#30702#0" expanded="false" />
+            <element signature="e#31513#31917#0" expanded="false" />
+            <element signature="e#31916#31917#0" expanded="false" />
+            <element signature="e#32032#32049#0" expanded="false" />
+            <element signature="e#32114#32131#0" expanded="false" />
+            <element signature="e#32737#33262#0" expanded="false" />
+            <element signature="e#33261#33262#0" expanded="false" />
+            <element signature="e#34203#34727#0" expanded="false" />
+            <element signature="e#34726#34727#0" expanded="false" />
             <marker date="1521631900192" expanded="true" signature="10922:11100" ph="SELECT g_sty... stry_analysis" />
             <marker date="1521631900192" expanded="true" signature="12971:13490" ph="select a.g_s... g_style" />
             <marker date="1521631900192" expanded="true" signature="13090:13248" ph="SELECT g_sty... stry_analysis" />
@@ -1619,8 +1400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pagejs/analysisjs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="421" column="1" lean-forward="true" selection-start-line="421" selection-start-column="1" selection-end-line="421" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="794" column="1" lean-forward="false" selection-start-line="794" selection-start-column="1" selection-end-line="794" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#loadtabtrydata#0" expanded="false" />
             <element signature="n#!!block;n#doanalysisdata#0" expanded="false" />
@@ -1638,6 +1419,14 @@
             <element signature="n#!!block;n#loadattimes#0" expanded="false" />
             <element signature="n#!!block;n#loadasstylestore#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/Dump20180321.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
