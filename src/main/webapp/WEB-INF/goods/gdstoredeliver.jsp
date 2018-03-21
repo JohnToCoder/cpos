@@ -93,7 +93,7 @@
 		</div>
 		<div class="box">
 			<div class="box-header with-border">
-				<h4 class="box-title">调货请求单审核</h4>
+				<h4 class="box-title">调货请求单状态</h4>
 				<div class="box-tools pull-right">
 					<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
 					</button>
@@ -113,9 +113,7 @@
 			</div>
 			<div class="box-body">
 				<div id="delivertoolbar" class="tool-bar">
-					<button id="btn_query" type="button" class="btn btn-info" onclick="doVerifyDeliver()">
-						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>审核
-					</button>
+
 					<button id="btn_" type="button" class="btn btn-success" onclick="doVerifyDeliver()">
 						<span class="glyphicon glyphicon-save" aria-hidden="true"></span>确认收货
 					</button>
@@ -147,6 +145,9 @@
 			</div>
 			<div class="box-body">
 				<div id="notestoolbar" class="tool-bar">
+					<button id="btn_query" type="button" class="btn btn-info" onclick="doVerifyDeliver()">
+						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>回退调货单
+					</button>
 					<button id="btnnewinvoice" type="button" class="btn btn-info" onclick="doaddnewinvoice()">
 						<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新建发货单
 					</button>
@@ -231,10 +232,12 @@
                 },{
                     field:'isverify',align:'center',valign:'middle',title:'审核',
                     formatter:function (value,row,index) {
-                        if(row.isverify =='0'){
-                            return ['<span class="label label-danger">待审核</span>',].join('');
-                        }else{
+                        if(row.isverify =='2'){
+                            return ['<span class="label label-danger">已退回</span>',].join('');
+                        }else if(row.isverify == '1'){
                             return ['<span class="label label-success">已审核</span>',].join('');
+                        }else{
+                            return ['<span class="label label-info">待审核</span>',].join('');
                         }
                     }
                 },{
@@ -302,10 +305,12 @@
                 },{
                     field:'isverify',align:'center',valign:'middle',title:'审核',
                     formatter:function (value,row,index) {
-                        if(row.isverify =='0'){
-                            return ['<span class="label label-danger">待审核</span>',].join('');
-                        }else{
+                        if(row.isverify =='2'){
+                            return ['<span class="label label-danger">已退回</span>',].join('');
+                        }else if(row.isverify == '1'){
                             return ['<span class="label label-success">已审核</span>',].join('');
+                        }else{
+                            return ['<span class="label label-info">待审核</span>',].join('');
                         }
                     }
                 },{

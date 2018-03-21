@@ -78,6 +78,63 @@ public class GoodsController {
         String strsize = jsonObject.getString("size");
         return goodsDao.doQueryAlltwg(empInfo.getStoreCode(),strsku,strstyle,strsize);
     }
+    //地区调货库存查询
+    @RequestMapping(value="/goods/doqueryallag",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doQueryAllag(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        String strsku = jsonObject.getString("sku");
+        String strstyle = jsonObject.getString("style");
+        String strsize = jsonObject.getString("size");
+        return goodsDao.doQueryAllag(strsku,strstyle,strsize);
+    }
+    //地区调货单创建
+    @RequestMapping(value = "/goods/doaddnewag",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doAddNewag(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        EmpInfo empInfo = (EmpInfo) request.getSession().getAttribute("emp");
+        String strwarecode = jsonObject.getString("warecode");
+        String strstorecode = jsonObject.getString("storecode");
+        return goodsDao.doAddNewag(empInfo.getEmpCode(),strwarecode,strstorecode);
+    }
+    //地区调货单上传调货配货表
+    @RequestMapping(value = "/goods/doaddnewagdtl",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doAddNewagDtl(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        String stragdtl = jsonObject.getString("agdtl");
+        String stragcode = jsonObject.getString("agcode");
+        String stragcount = jsonObject.getString("agcount");
+        return goodsDao.doAddNewAgdtl(stragcode,stragcount,stragdtl);
+    }
+    //地区调货单详细按单号查询
+    @RequestMapping(value = "/goods/getagdtlbycode",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String getAgdtlByCode(HttpServletRequest request){
+        String strcode = request.getParameter("agcode");
+        return goodsDao.getAgdtlByCode(strcode);
+    }
+    //地区调货单删除详情项按sku
+    @RequestMapping(value = "/goods/dodelagdtlbysku",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doDelagdtlByCode(HttpServletRequest request){
+        String strsku = request.getParameter("agsku");
+        String stragcode = request.getParameter("agcode");
+        return goodsDao.doDelAgdtlBySku(strsku,stragcode);
+    }
+    //确认调货通知单
+    @RequestMapping(value = "/goods/doqueryagbill",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doQueryAgbill(HttpServletRequest request){
+        String stragcode = request.getParameter("agcode");
+        String stragcount = request.getParameter("agcount");
+        return goodsDao.doQueryAgbill(stragcode,stragcount);
+    }
+    //确认删除配货单按单号
+    @RequestMapping(value = "/goods/dodelagbillbycode",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doDelAgbillByCode(HttpServletRequest request){
+        String stragcode = request.getParameter("agcode");
+        return goodsDao.doDelAgbillByCode(stragcode);
+    }
     //上传仓库发货单信息
     @RequestMapping(value = "/goods/doupwibilldtl",produces = {"text/html;charset=UTF-8;","application/json;"})
     @ResponseBody
@@ -247,10 +304,14 @@ public class GoodsController {
     //PDA上传盘点单详情
     @RequestMapping(value = "/goods/pda/upcheckdata")
     @ResponseBody
-    public String doUpPDACheckData(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+    public String doUpPDACheckData(HttpServletRequest request,@RequestBody JSONObject jsonObject) {
         String strcheckbill = jsonObject.getString("checkbillNo");
         String strcheckdata = jsonObject.getString("data");
-        return goodsDao.doUpPDACheckData(strcheckbill,strcheckdata);
+        String strplannum = jsonObject.getString("plannum");
+        String strchecknum = jsonObject.getString("checknum");
+        String strdiffnum = jsonObject.getString("diffnum");
+        String strdiffdes = jsonObject.getString("diffdes");
+        return goodsDao.doUpPDACheckData2(strcheckbill, strcheckdata, strplannum, strchecknum, strdiffnum, strdiffdes);
     }
     //盘点单查询
     @RequestMapping(value = "/goods/doquerystorecheck",produces = {"text/html;charset=UTF-8;","application/json;"})
@@ -261,5 +322,50 @@ public class GoodsController {
         String strstartdt = jsonObject.getString("startdt");
         String strenddt = jsonObject.getString("enddt");
         return goodsDao.doQueryStoreCheck(empInfo.getStoreCode(),strscbcode,strstartdt,strenddt);
+    }
+    //盘点单详情
+    @RequestMapping(value = "/goods/gettabcheckdtl",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String getTabCheckDtl(HttpServletRequest request){
+        String strscbcode = request.getParameter("scbcode");
+        return goodsDao.getTabCheckDtl(strscbcode);
+    }
+
+    //地区调货仓库查询调货单
+    @RequestMapping(value = "/goods/doqueryagbillw",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doQueryAgbillw(HttpServletRequest request){
+        return goodsDao.doQueryAgbillw();
+    }
+    //地区调货仓库查询调货单
+    @RequestMapping(value = "/goods/doqueryagbilllist",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doQueryAgbillList(HttpServletRequest request){
+        String stragcode = request.getParameter("agcode");
+        return goodsDao.doQueryAgbillList(stragcode);
+    }
+    //地区配货单上传
+    @RequestMapping(value = "/goods/doupwiagbill",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String doUpwiAgbill(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        EmpInfo empInfo = (EmpInfo) request.getSession().getAttribute("emp");
+        String stragcode = jsonObject.getString("agcode");
+        String strwimethod = jsonObject.getString("wimethod");
+        String strwlcode = jsonObject.getString("wlcode");
+        return goodsDao.doUpwiAgbill(empInfo.getEmpCode(),stragcode,strwimethod,strwlcode);
+    }
+    //PDA校验配货单接口
+    @RequestMapping(value = "/goods/pda/getwiagbill",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String pdaGetWiagBill(HttpServletRequest request){
+        return goodsDao.getpdaWiagBill();
+    }
+    //PDA上传配货单校验结果
+    @RequestMapping(value = "/goods/pda/doupagdtl",produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String pdaDoupAgdtl(HttpServletRequest request,@RequestBody JSONObject jsonObject){
+        String strdtl = jsonObject.getString("data");
+        String strwicode = jsonObject.getString("wicode");
+        return goodsDao.doUpAgdtl(strdtl,strwicode);
     }
 }

@@ -7,13 +7,12 @@ import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.io.File;
 
 /**
  * Created by john on 2018/1/1.
@@ -87,4 +86,59 @@ public class UserController {
         return bizResult;
     }
 
+
+    @RequestMapping(value = "/pages/updateapp")
+    public String getUpdateApp(){return "updateapp";}
+    //获取所有的APP版本信息
+    @RequestMapping(value = "/pages/getappversion")
+    @ResponseBody
+    public String getAppVersion(){
+        String strAppInfo = userDao.getAppVersion();
+        return  strAppInfo;
+    }
+    //上传APP到服务器
+    @RequestMapping(value = "/uploadapp",method = RequestMethod.POST,produces = {"text/html;charset=UTF-8;","application/json;"})
+    @ResponseBody
+    public String UploadAppp(@RequestParam("file") MultipartFile file,
+                             HttpServletRequest request){
+        String strRe ="";
+        String strAppType = request.getParameter("apptype");
+        String strVersionCode = request.getParameter("versioncode");
+        String strAppMessages = request.getParameter("appmessages");
+        //String path ="/usr/tomcat/tomcat8/webapps/updateapp";
+        String path = "/Users/john/Desktop/";
+        String fileName = file.getOriginalFilename();
+        File targetFile = new File(path,fileName);
+        String appurl = "http://www.echitec.com/updateapp/"+fileName;
+        try{
+            if(!targetFile.exists()){
+                targetFile.mkdir();
+                file.transferTo(targetFile);
+                userDao.insertAppInfo(strAppType,strVersionCode,fileName,strAppMessages,appurl);
+                strRe = fileName+"-上传成功!";
+            }else{
+                strRe = fileName+"-已存在!";
+            }
+        }catch (Exception ex){
+
+            return "上传失败:"+ ex.getMessage().toString();
+        }
+
+        return strRe;
+    }
+    //删除APP
+    @RequestMapping(value = "/dltapp" ,method =RequestMethod.POST)
+    @ResponseBody
+    public String dltApp(@RequestBody JSONObject jsonObject){
+        String[] strids = jsonObject.getString("ids").split(",");
+        return userDao.dltAPP(strids);
+    }
+    //更新手机端APP
+    @RequestMapping(value="/updateapp")
+    @ResponseBody
+    public ResultInfo<String> updateApp(HttpServletRequest request){
+        String strVersionCode = request.getParameter("versioncode");
+        String strAppType = "app";
+        return userDao.getAppUrl(strVersionCode,strAppType);
+    }
 }

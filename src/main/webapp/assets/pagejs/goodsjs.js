@@ -818,14 +818,14 @@ function loadtabverifydeliver() {
     });
 }
 function doVerifyDeliver() {
-    var queryrows = $("#tabverifydeliver").bootstrapTable("getSelections");
+    var queryrows = $("#tabnotesdeliver").bootstrapTable("getSelections");
     if(queryrows.length == 0){
-        alert("请选择要审核的调货单!");
+        alert("请选择要退回的调货单!");
         return;
     }
     var confirlist = "";
-    var confirmmsg = "确认审核通过以下调货单:\n";
-    var confirmmsgl = "以下调货单已审核过:\n";
+    var confirmmsg = "确认审核退回以下调货单:\n";
+    var confirmmsgl = "以下调货单已退回:\n";
     for(var i = 0 ;i<queryrows.length;i++){
         if(queryrows[i].isverify == '0'){
             confirmmsg +="   --  "+queryrows[i].gdbCode +"   \n";
@@ -844,7 +844,7 @@ function doVerifyDeliver() {
             success:function (data) {
                 var re = JSON.parse(data);
                 if(re.code = "0"){
-                    loadtabverifydeliver();
+                    loadtabnotesdeliver();
                 }else{
                     alert(re.data);
                 }
@@ -871,6 +871,10 @@ function doaddnewinvoice() {
     }
     if(queryrows.length>1){
         alert("一次只能新建一个调货发货单!");
+        return;
+    }
+    if(queryrows[0].isverify == '2'){
+        alert("该订单已退回,不能再发货！");
         return;
     }
     $("#txbdelivercode").val(queryrows[0].gdbCode);

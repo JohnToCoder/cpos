@@ -12,6 +12,84 @@
 	</head>
 	<body>
 		<div class="box">
+			<div class="box-body">
+				<div class="row" style="margin-top: 10px">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="info-box bg-aqua">
+							<span class="info-box-icon" ><i class="fa fa-bookmark-o" style="margin-top: 15px"></i></span>
+
+							<div class="info-box-content">
+								<span class="info-box-text">Bookmarks</span>
+								<span class="info-box-number">41,410</span>
+
+								<div class="progress">
+									<div class="progress-bar" style="width: 70%"></div>
+								</div>
+								<span class="progress-description">70% Increase in 30 Days</span>
+							</div>
+							<!-- /.info-box-content -->
+						</div>
+						<!-- /.info-box -->
+					</div>
+					<!-- /.col -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="info-box bg-green">
+							<span class="info-box-icon"><i class="fa fa-thumbs-o-up" style="margin-top: 15px"></i></span>
+
+							<div class="info-box-content">
+								<span class="info-box-text">Likes</span>
+								<span class="info-box-number">41,410</span>
+
+								<div class="progress">
+									<div class="progress-bar" style="width: 70%"></div>
+								</div>
+								<span class="progress-description">70% Increase in 30 Days</span>
+							</div>
+							<!-- /.info-box-content -->
+						</div>
+						<!-- /.info-box -->
+					</div>
+					<!-- /.col -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="info-box bg-yellow">
+							<span class="info-box-icon"><i class="fa fa-calendar" style="margin-top: 15px"></i></span>
+
+							<div class="info-box-content">
+								<span class="info-box-text">Events</span>
+								<span class="info-box-number">41,410</span>
+
+								<div class="progress">
+									<div class="progress-bar" style="width: 70%"></div>
+								</div>
+								<span class="progress-description">70% Increase in 30 Days</span>
+							</div>
+							<!-- /.info-box-content -->
+						</div>
+						<!-- /.info-box -->
+					</div>
+					<!-- /.col -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="info-box bg-red">
+							<span class="info-box-icon"><i class="fa fa-comments-o" style="margin-top: 15px"></i></span>
+
+							<div class="info-box-content">
+								<span class="info-box-text">Comments</span>
+								<span class="info-box-number">41,410</span>
+
+								<div class="progress">
+									<div class="progress-bar" style="width: 70%"></div>
+								</div>
+								<span class="progress-description">70% Increase in 30 Days</span>
+							</div>
+							<!-- /.info-box-content -->
+						</div>
+						<!-- /.info-box -->
+					</div>
+					<!-- /.col -->
+				</div>
+			</div>
+		</div>
+		<div class="box">
 			<div class="box-header with-border">
 				<h4 class="box-title">试穿数据统计</h4>
 				<div class="box-tools pull-right">
@@ -34,7 +112,7 @@
 			<!-- /.box-header -->
 			<div class="box-body">
 
-				<table id="tabtrydata" data-search="true" style="font-size: 10px">
+				<table id="tabtrydata"  style="font-size: 10px">
 				</table>
 			</div>
 
@@ -49,15 +127,16 @@
                     sortOrder: "asc",   //排序方式
                     sidePagination: "client",  //分页方式：client客户端分页，server服务端分页（*）
                     pageNumber:1,   //初始化加载第一页，默认第一页
-                    pageSize: 15,   //每页的记录行数（*）
+                    pageSize: 10,   //每页的记录行数（*）
                     pageList: [15, 25, 50, 100], //可供选择的每页的行数（*）
-                    height:520,
+                    height:380,
                     strictSearch: true,
                     clickToSelect: true,  //是否启用点击选中行
-                    showColumns:true,
+                    showColumns:false,
+	                showFooter:true,
                     cardView: false,   //是否显示详细视图
                     detailView: false,   //是否显示父子表
-                    showExport: true, //是否显示导出
+                    showExport: false, //是否显示导出
                     exportDataType: "all", //basic', 'all', 'selected'.
                     columns: [{
                         checkbox: true,align: 'center', valign: 'middle',
@@ -76,7 +155,9 @@
                     },{
                         field: 'difftime',align: 'center', valign: 'middle', title: '试穿时长'
                     },{
-                        field:'gmtCreat',align:'center',valign:'middle',title:'试穿时间'
+                        field:'readTime',align:'center',valign:'middle',title:'试穿开始'
+                    },{
+                        field:'gmtCreat',align:'center',valign:'middle',title:'试穿结束'
                     }]
                 });
                 loadtabtrydata();

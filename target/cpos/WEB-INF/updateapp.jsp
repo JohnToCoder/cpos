@@ -42,15 +42,15 @@
 		<div class="panel panel-default">
 			<div class="panel-body container" id="query">
 				<ol class="breadcrumb">
-					<li><strong><span style="color: #27a0d7">产线客户端更新</span></strong></li>
+					<li><strong><span style="color: #27a0d7">客户端更新</span></strong></li>
 				</ol>
 				<form class="form-inline" role="form" style="float: left; width: 100%"  id="upappform">
 					<div id="upappTip" class="alert-warning" ></div>
 					<div class="form-group">
 						<label for="versioncode"> 客户端类型:</label>
 						<select class="form-control" name="apptype" id="apptype">
-							<option value="mesapp">MES手机端</option>
-							<option value="mespad">MES平板端</option>
+							<option value="app">手机端</option>
+							<option value="pad">平板端</option>
 						</select>
 					</div>
 					<div class="form-group">

@@ -69,14 +69,14 @@
                     sortOrder: "asc",   //排序方式
                     sidePagination: "client",  //分页方式：client客户端分页，server服务端分页（*）
                     pageNumber:1,   //初始化加载第一页，默认第一页
-                    pageSize: 10,   //每页的记录行数（*）
+                    pageSize: 15,   //每页的记录行数（*）
                     pageList: [10, 25, 50, 100], //可供选择的每页的行数（*）
                     height:600,
                     strictSearch: true,
                     clickToSelect: true,  //是否启用点击选中行
                     showColumns:true,
                     cardView: false,   //是否显示详细视图
-                    detailView: false,   //是否显示父子表
+                    detailView: true,   //是否显示父子表
                     showExport: true, //是否显示导出
                     exportDataType: "all", //basic', 'all', 'selected'.
                     columns: [{
@@ -86,9 +86,18 @@
                     },{
                         field: 'scbCode',align: 'center', valign: 'middle', title: '盘点单号'
                     },{
-                        field: 'scbType', align: 'center', valign: 'middle', title: '盘点类型'
+                        field: 'scbType', align: 'center', valign: 'middle', title: '盘点类型',
+                        formatter:function (value,row,index) {
+                            if(row.scbType =='1'){
+                                return ['<span class="label label-info">全盘</span>',].join('');
+                            }else{
+                                return ['<span class="label label-success">抽盘</span>',].join('');
+                            }
+                        }
                     },{
-                        field: 'scbCount',align: 'center', valign: 'middle', title: '盘点数量'
+                        field: 'storeCount',align: 'center', valign: 'middle', title: '计划盘点数'
+                    },{
+                        field: 'scbCount',align: 'center', valign: 'middle', title: '实际盘点数'
                     },{
                         field: 'scbDiff',align: 'center', valign: 'middle', title: '盘点差异数'
                     },{
@@ -97,9 +106,42 @@
                         field: 'gmtCreat',align: 'center', valign: 'middle', title: '盘点建单时间'
                     },{
                         field: 'gmtModify',align: 'center', valign: 'middle', title: '盘点完成时间'
-                    }]
+                    }],
+                    onExpandRow: function (index, row, $detail) {
+                        oInit.InitSubTableCheck(index, row, $detail);
+                    }
                 });
                 doQueryStoreCheck();
+                var oInit = new Object();
+                oInit.InitSubTableCheck=function(index,row,$detail){
+                    var cur_table = $detail.html('<table style="font-size: 8px"></table>').find('table');
+                    $(cur_table).bootstrapTable({
+                        clickToSelect: true,
+                        pageSize: 10,
+                        pageList: [10, 25],
+                        columns: [{
+                            checkbox: true,align: 'center', valign: 'middle',
+                        },{
+                            field: 'scbCode',align: 'center', valign: 'middle', title: '盘点单号'
+                        },{
+                            field: 'sku',align: 'center', valign: 'middle', title: '货号'
+                        },{
+                            field: 'size',align: 'center', valign: 'middle', title: '尺码'
+                        },{
+                            field: 'epc',align: 'center', valign: 'middle', title: 'EPC'
+                        }]
+                    });
+                    $.ajax({
+                        type:'post',
+                        url:'goods/gettabcheckdtl?scbcode='+row.scbCode,
+                        success:function(result){
+                            //alert(result);
+                            var jsoOrder = JSON.parse(result);
+                            $(cur_table).bootstrapTable("load", jsoOrder.data);
+                        }
+                    });
+                }
+
             });
 		</script>
 	</body>

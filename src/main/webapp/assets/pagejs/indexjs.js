@@ -19,6 +19,9 @@ function pageStoreInvoice() {
 function pageStoreCheck() {
     addTabs({id:'25',title:'门店盘点',close: true,url:'goods/gdstorecheck'});
 }
+function pageAreaGoods(){
+    addTabs({id:'26',title:'地区调货',close: true,url:'goods/gdareagoods'});
+}
 function pageStoreMag() {
     addTabs({id:'31',title:'单位管理',close:true,url:'geers/pgstoremag'});
 }
@@ -32,7 +35,7 @@ function pageSalesBill() {
     addTabs({id:'41',title:'销售开单',close:true,url:'sales/pgsalesbill'});
 }
 function pageSalesCount() {
-    addTabs({id:'42',title:'销售统计',close:true,url:'sales/pgsalescount'});
+    addTabs({id:'42',title:'销售单查询',close:true,url:'sales/pgsalescount'});
 }
 function pageSalesGeer() {
     addTabs({id:'43',title:'销售配置',close:true,url:'sales/pgsalesgeer'});
@@ -40,14 +43,34 @@ function pageSalesGeer() {
 function pageAnalysisData() {
     addTabs({id:'51',title:'试穿数据报表',close:true,url:'analysis/pagebasedata'});
 }
+//销售数据分析
 function pageAnalysisSales() {
     addTabs({id:'52',title:'销售数据分析',close:true,url:'analysis/pagesalesdata'});
 }
+function pageAsstore(){
+    addTabs({id:'521',title:'门店销售额统计',close:true,url:'analysis/pageasstore'});
+}
+function pageAsstyletop(){
+    addTabs({id:'522',title:'畅销款统计',close:true,url:'analysis/pageasstyletop'});
+}
+function pageAsstylelast() {
+    addTabs({id:'523',title:'滞销款统计',close:true,url:'analysis/pageasstylelast'});
+}
+function pageAsstyle(){
+    addTabs({id:'524',title:'款式销售情况统计',close:true,url:'analysis/pageasstyle'});
+}
+function pageAsstylestore(){
+    addTabs({id:'525',title:'款式销量门店分布',close:true,url:'analysis/pageasstylestore'});
+}
+//试穿数据分析
 function pageTryAnalysis() {
     addTabs({id:'53',title:'试穿数据分析',close:true,url:'analysis/pagetryanalysis'});
 }
 function pageTrySales() {
-    addTabs({id:'54',title:'销售销售比',close:true,url:'analysis/pagesalestry'});
+    addTabs({id:'531',title:'试穿销售比',close:true,url:'analysis/pagesalestry'});
+}
+function pageAttimes() {
+    addTabs({id:'532',title:'试穿流量',close:true,url:'analysis/pageattimes'});
 }
 function PagesUpdateAPP() {
     addTabs({id:'9',title:'上传APP',close: true,url:'pages/updateapp'});
@@ -67,7 +90,7 @@ function dltUpApp() {
     var msg="您确定要删除选定APP吗?";
     if (confirm(msg) == true) {
         $.ajax({
-            url:'cpos/dltapp',
+            url:'dltapp',
             type:'post',
             contentType:'application/json; charset=UTF-8',
             data:JSON.stringify({ids:ids}),
@@ -103,7 +126,7 @@ function upapp(){
 
     var formData = new FormData($('#upappform')[0]);
     $.ajax({
-        url: 'cpos/uploadapp',
+        url: 'uploadapp',
         type: 'POST',
         data: formData,
         async: true,

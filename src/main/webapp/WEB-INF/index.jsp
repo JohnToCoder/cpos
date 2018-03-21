@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title></title>
+    <title>简逸智慧门店管理系统</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -49,52 +49,7 @@
     <script>
       $.widget.bridge('uibutton', $.ui.button);
     </script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/jquery.min.js"></script>
-    <!-- Bootstrap 3.3.6 -->
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Morris.js charts -->
-    <script src="<%=request.getContextPath() %>/assets/dist/js/raphael-min.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/plugins/morris/morris.js"></script>
-    <!-- Sparkline -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <!-- jvectormap -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <!-- jQuery Knob Chart -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/knob/jquery.knob.js"></script>
-    <!-- daterangepicker -->
-    <script src="<%=request.getContextPath() %>/assets/dist/js/moment.min.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/plugins/daterangepicker/daterangepicker.js"></script>
-    <!-- datepicker -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
-    <!-- Bootstrap WYSIHTML5 -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-    <!-- Slimscroll -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
-    <!-- FastClick -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/fastclick/fastclick.js"></script>
-    <!-- AdminLTE App -->
-    <script src="<%=request.getContextPath() %>/assets/dist/js/app.js"></script>
-    <!--ChartJS-->
-    <script src="<%=request.getContextPath() %>/assets/plugins/chartjs/Chart.js"></script>
-    <!--Knob-->
-    <script src="<%=request.getContextPath() %>/assets/plugins/knob/jquery.knob.js"></script>
-    <!-- bootstrap datepicker -->
-    <script src="<%=request.getContextPath() %>/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-export.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-zh-CN.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/tableExport.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-tab.js"></script>
-	<script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-editable.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-editable.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/echarts-all.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/bootstrap/js/macarons.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/pagejs/indexjs.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/pagejs/geersjs.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/pagejs/goodsjs.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/pagejs/salesjs.js"></script>
-    <script src="<%=request.getContextPath() %>/assets/pagejs/analysisjs.js"></script>
+
   </head>
   <body class="hold-transition skin-blue sidebar-mini" onload="initpages()" >
     <div class="wrapper">
@@ -133,29 +88,13 @@
                   <span id="ddemmenu" class="hidden-xs">${emp.empName}</span>
                 </a>
                 <ul class="dropdown-menu">
-
                   <li class="user-body">
-                    <ul class="control-sidebar-menu">
-                      <li>
-                        <a>
-                          <i class="menu-icon fa fa-sellsy "></i>
-                          <div class="menu-info">
-                            <h4 class="control-sidebar-subheading">单位编号: ${emp.storeCode}</h4>
-                            <h4 class="control-sidebar-subheading">单位名称: ${emp.storeName}</h4>
-                            <h4 class="control-sidebar-subheading">单位电话: ${emp.storeTel}</h4>
-                          </div>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a>
-                          <i class="menu-icon fa fa-drivers-license-o "></i>
-                          <div class="menu-info">
-                            <h4 class="control-sidebar-subheading">员工姓名: ${emp.empName}</h4>
-                            <h4 class="control-sidebar-subheading">员工工号: ${emp.empCode}</h4>
-                          </div>
-                        </a>
-                      </li>
+                    <ul class="sidebar-menu">
+                      <li><a href="javascript:void(0)"><i class="fa fa-circle-o text-red"></i> <span>单位编号: ${emp.storeCode}</span></a></li>
+                      <li><a href="javascript:void(0)"><i class="fa fa-circle-o text-yellow"></i> <span>单位名称: ${emp.storeName}</span></a></li>
+                      <li><a href="javascript:void(0)"><i class="fa fa-circle-o text-aqua"></i> <span>单位电话: ${emp.storeTel}</span></a></li>
+                      <li><a href="javascript:void(0)"><i class="fa fa-circle-o text-yellow"></i> <span>员工姓名: ${emp.empName}</span></a></li>
+                      <li><a href="javascript:void(0)"><i class="fa fa-circle-o text-aqua"></i> <span>员工工号: ${emp.empCode}</span></a></li>
                     </ul>
                   </li>
                   <li class="user-footer">
@@ -199,9 +138,10 @@
 				</span>
               </a>
               <ul class="treeview-menu">
+                <li><a href="javascript:void(0)" onclick="pageAreaGoods()"><i class="fa fa-cube"></i> 地区配货</a></li>
                 <li><a href="javascript:void(0)" onclick="pageWareInvoice()"><i class="fa fa-cubes"></i> 仓库发货单</a></li>
                 <li><a href="javascript:void(0)" onclick="pageStoreRecipe()"><i class="fa fa-file-text-o"></i> 门店收货单</a></li>
-                <li><a href="javascript:void(0)" onclick="pageStoreWare()"><i class="fa fa-cloud-upload"></i> 门店库存查询</a></li>
+                <li><a href="javascript:void(0)" onclick="pageStoreWare()"><i class="fa fa-archive"></i> 门店库存查询</a></li>
                 <li><a href="javascript:void(0)" onclick="pageStoreInvoice()"><i class="fa fa-cart-arrow-down"></i> 门店转货单</a></li>
                 <li><a href="javascript:void(0)" onclick="pageStoreCheck()"><i class="fa fa-sitemap"></i> 门店盘点单</a></li>
               </ul>
@@ -216,9 +156,8 @@
               </a>
               <ul class="treeview-menu">
                 <li><a href="javascript:void(0)" onclick="pageSalesBill()"><i class="fa fa-clipboard"></i> 销售开单</a></li>
-                <li><a href="javascript:void(0)" onclick="pageSalesCount()"><i class="fa fa-bar-chart"></i> 销售统计</a></li>
+                <li><a href="javascript:void(0)" onclick="pageSalesCount()"><i class="fa fa-bar-chart"></i> 销售单查询</a></li>
                 <li><a href="javascript:void(0)" onclick="pageSalesGeer()"><i class="fa fa-gears"></i> 销售配置</a></li>
-
               </ul>
             </li>
             <li class=" treeview">
@@ -230,10 +169,41 @@
 				</span>
               </a>
               <ul class="treeview-menu">
+                <li><a href="javascript:void(0)" onclick="pageAnalysisSales()"><i class="fa fa-bar-chart"></i><span>销售数据分析</span>
+                  <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                </a>
+                  <ul class="treeview-menu">
+                    <li><a href="javascript:void(0)" onclick="pageAsstore()"><i class="fa fa-cube"></i> 门店销售情况统计</a></li>
+                    <li><a href="javascript:void(0)" onclick="pageAsstyle()"><i class="fa fa-cube"></i><span> 款式销售情况统计</span>
+                      <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                    </a>
+                      <ul class="treeview-menu">
+                        <li><a href="javascript:void(0)" onclick="pageAsstylestore()"><i class="fa fa-cube"></i> 款式销量门店分布对比</a></li>
+                        <li><a href="javascript:void(0)" onclick="pageAsstyletop()"><i class="fa fa-cube"></i> 畅销款统计Top10</a></li>
+                        <li><a href="javascript:void(0)" onclick="pageAsstylelast()"><i class="fa fa-cube"></i> 滞销款统计Last10</a></li>
+                      </ul>
+                    </li>
+
+                  </ul>
+                </li>
+                <li><a href="javascript:void(0)" onclick="pageTryAnalysis()"><i class="fa fa-pie-chart"></i><span>试穿数据分析</span>
+                  <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                </a>
+                  <ul class="treeview-menu">
+                    <li><a href="javascript:void(0)" onclick="pageAttimes()"><i class="fa fa-cube"></i> 时间段内试穿流量统计</a></li>
+                    <li><a href="javascript:void(0)" onclick="pageAtstoretrysales()"><i class="fa fa-cube"></i> 各门店试穿销售比</a></li>
+                  </ul>
+                </li>
+                <li><a href="javascript:void(0)" onclick="pageTrySales()"><i class="fa fa-sellsy"></i><span>仓储数据分析</span>
+                  <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                </a>
+                  <ul class="treeview-menu">
+                    <li><a href="javascript:void(0)" onclick="pageAreaGoods()"><i class="fa fa-cube"></i> 库存数据统计</a></li>
+                    <li><a href="javascript:void(0)" onclick="pageAreaGoods()"><i class="fa fa-cube"></i> 配货数据统计</a></li>
+                    <li><a href="javascript:void(0)" onclick="pageAreaGoods()"><i class="fa fa-cube"></i> 调货数据统计</a></li>
+                  </ul>
+                </li>
                 <li><a href="javascript:void(0)" onclick="pageAnalysisData()"><i class="fa fa-cloud-upload"></i> 试穿数据采集</a></li>
-                <li><a href="javascript:void(0)" onclick="pageAnalysisSales()"><i class="fa fa-bar-chart"></i> 销售数据分析</a></li>
-                <li><a href="javascript:void(0)" onclick="pageTryAnalysis()"><i class="fa fa-pie-chart"></i> 试穿分析</a></li>
-                <li><a href="javascript:void(0)" onclick="pageTrySales()"><i class="fa fa-sellsy"></i> 试穿销售比</a></li>
               </ul>
             </li>
             <li class=" treeview">
@@ -288,6 +258,54 @@
         <strong>Copyright &copy; 2014-2018 <a href="http://www.echitec.com">深圳市简逸信息技术有限公司</a>.</strong> All rights reserved.
       </footer>
       <!-- Control Sidebar -->
+
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/jquery.min.js"></script>
+      <!-- Bootstrap 3.3.6 -->
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Morris.js charts -->
+      <script src="<%=request.getContextPath() %>/assets/dist/js/raphael-min.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/plugins/morris/morris.js"></script>
+      <!-- Sparkline -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+      <!-- jvectormap -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+      <!-- jQuery Knob Chart -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/knob/jquery.knob.js"></script>
+      <!-- daterangepicker -->
+      <script src="<%=request.getContextPath() %>/assets/dist/js/moment.min.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/plugins/daterangepicker/daterangepicker.js"></script>
+      <!-- datepicker -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+      <!-- Bootstrap WYSIHTML5 -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+      <!-- Slimscroll -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+      <!-- FastClick -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/fastclick/fastclick.js"></script>
+      <!-- AdminLTE App -->
+      <script src="<%=request.getContextPath() %>/assets/dist/js/app.js"></script>
+      <!--ChartJS-->
+      <script src="<%=request.getContextPath() %>/assets/plugins/chartjs/Chart.js"></script>
+      <!--Knob-->
+      <script src="<%=request.getContextPath() %>/assets/plugins/knob/jquery.knob.js"></script>
+      <!-- bootstrap datepicker -->
+      <script src="<%=request.getContextPath() %>/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-export.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-zh-CN.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/tableExport.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-tab.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-editable.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/bootstrap-table-editable.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/echarts-all.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/bootstrap/js/macarons.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/pagejs/indexjs.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/pagejs/geersjs.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/pagejs/goodsjs.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/pagejs/salesjs.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/pagejs/analysisjs.js"></script>
+      <script src="<%=request.getContextPath() %>/assets/pagejs/areagoods.js"></script>
     </div>
   </body>
 </html>

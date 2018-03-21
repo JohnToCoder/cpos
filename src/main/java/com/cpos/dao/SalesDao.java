@@ -4,6 +4,7 @@ import com.cpos.classes.ResultInfo;
 import com.cpos.classes.sales.SalesBill;
 import com.cpos.classes.sales.SalesDtl;
 import com.cpos.classes.sales.SalesPrice;
+import com.cpos.classes.sales.StoreMothReport;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -212,7 +213,7 @@ public class SalesDao {
         return JSONObject.fromObject(resultInfo).toString();
     }
 
-    public String getPDASalsInfo(String strstorecode, String strstartdt, String strfinishdt) {
+    public String getSalesInfo(String strstorecode, String strstartdt, String strfinishdt) {
         ResultInfo<String> resultInfo = new ResultInfo<String>();
         List<SalesBill> listBill = new ArrayList<SalesBill>();
         try{
@@ -271,6 +272,67 @@ public class SalesDao {
             resultInfo.setCode(0);
             resultInfo.setCount(listBill.size());
             resultInfo.setData(JSONArray.fromObject(listBill).toString());
+        }catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.getMessage().toString());
+        }
+        return JSONObject.fromObject(resultInfo).toString();
+    }
+
+    public String getSalesBills(String storeCode, String strstartdt, String strfinishdt, String strbillno) {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        List<SalesBill> listBill = new ArrayList<SalesBill>();
+        try{
+            String strsql = "SELECT a.*,b.emp_name FROM pos_cloud.store_salesbill a \n" +
+                    "left join pos_cloud.sta_employee b on a.s_empcode = b.emp_code\n" +
+                    "where a.s_storecode ='"+storeCode+"' and a.s_billno like '%"+strbillno+"%' " +
+                    "and a.gmt_creat between '"+strstartdt+"' and DATE_ADD('"+strfinishdt+"',INTERVAL 1 DAY); ;";
+            listBill = jdbcTemplate.query(strsql, new ParameterizedRowMapper<SalesBill>() {
+                @Override
+                public SalesBill mapRow(ResultSet rs, int rowNum) throws SQLException {
+                    SalesBill sb = new SalesBill();
+                    sb.setSalesBillNo(rs.getString("s_billno"));
+                    sb.setTotalPrice(rs.getString("s_totalprice"));
+                    sb.setTotalNum(rs.getString("s_totalnum"));
+                    sb.setStoreCode(rs.getString("s_storecode"));
+                    sb.setEmpCode(rs.getString("s_empcode"));
+                    sb.setEmpName(rs.getString("emp_name"));
+                    sb.setGmtCreat(rs.getString("gmt_creat"));
+                    return sb;
+                }
+            });
+            resultInfo.setCode(0);
+            resultInfo.setCount(listBill.size());
+            resultInfo.setData(JSONArray.fromObject(listBill).toString());
+        }catch (Exception es){
+            resultInfo.setCode(1);
+            resultInfo.setCount(1);
+            resultInfo.setData(es.getMessage().toString());
+        }
+        return JSONObject.fromObject(resultInfo).toString();
+    }
+
+    public String getStoreMothReport(String storeCode) {
+        ResultInfo<String> resultInfo = new ResultInfo<String>();
+        List<StoreMothReport> smp = new ArrayList<StoreMothReport>();
+        try{
+            String sqlselect = "SELECT sum(s_totalprice) as totalprice, count(s_billno) as billnums, sum(s_totalnum) as totalnum FROM pos_cloud.store_salesbill " +
+                    "where s_storecode = '"+storeCode+"'  and gmt_creat BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND NOW();";
+            smp = jdbcTemplate.query(sqlselect, new ParameterizedRowMapper<StoreMothReport>() {
+                @Override
+                public StoreMothReport mapRow(ResultSet rs, int rowNum) throws SQLException {
+                    StoreMothReport sm = new StoreMothReport();
+                    sm.setSsTotalPrice(rs.getString("totalprice"));
+                    sm.setSsTotalBill(rs.getString("billnums"));
+                    sm.setSsTotalNum(rs.getString("totalnum"));
+                    return sm;
+                }
+            });
+            smp.get(0).setSsProcess("20");
+            resultInfo.setCode(0);
+            resultInfo.setCount(1);
+            resultInfo.setData(JSONArray.fromObject(smp).toString());
         }catch (Exception es){
             resultInfo.setCode(1);
             resultInfo.setCount(1);

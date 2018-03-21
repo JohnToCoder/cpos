@@ -130,7 +130,7 @@ function doSaveEmp(){
                 alert(strre.data);
             }
         });
-        mgemptag == 0;
+        mgemptag = 0;
     }else{
         $.ajax({
             url:'geer/doupempinfo',

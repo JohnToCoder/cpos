@@ -9,7 +9,6 @@
 <html>
 	<head>
 		<title>试穿销售比</title>
-		<meta http-equiv="refresh" content="20">
 	</head>
 	<body>
 		<div class="box">
@@ -34,107 +33,11 @@
 			</div>
 			<!-- /.box-header -->
 			<div class="box-body">
-				<div id="trysalesanalysis" class="chart col-md-6" style="height:480px "></div>
+				<div id="tryanalysis" class="chart col-md-6" style="height:420px"></div>
 			</div>
 			<script>
                 $(document).ready(function(){
-                    var myChart = echarts.init(document.getElementById('trysalesanalysis'),'macarons');
-                    var option = {
-                        tooltip : {
-                            trigger: 'axis'
-                        },
-                        toolbox: {
-                            show : true,
-                            feature : {
-                                mark : {show: true},
-                                dataView : {show: true, readOnly: false},
-                                magicType: {show: true, type: ['line', 'bar']},
-                                restore : {show: true},
-                                saveAsImage : {show: true}
-                            }
-                        },
-                        calculable : true,
-                        legend: {
-                            data:['销量','销售额','试穿次数(次)', '试穿时长(秒)']
-                        },
-                        xAxis : [
-                            {
-                                type : 'category',
-                                data : ['9D615', '9D911', '9I211', '9I214', '9I503', '9J104', '9J402', '9J404',
-                                    '9L214', '9UK20']
-                            }
-                        ],
-                        yAxis : [
-                            {
-                                type : 'value',
-                                name : '金额',
-                                axisLabel : {
-                                    formatter: '{value} ￥'
-                                }
-                            },
-                            {
-                                type : 'value',
-                                name : '数量',
-                                axisLabel : {
-                                    formatter: '{value} '
-                                }
-                            }
-
-                        ],
-                        series : [
-
-                            {
-                                name:'销量',
-                                type:'bar',
-                                barWidth : 12,
-                                yAxisIndex: 1,
-                                data:[28, 23, 58, 70, 33, 65,78, 64, 88, 45,34,25,36],
-                                markPoint : {
-                                    data : [
-                                        {type : 'max', name: '最大值'},
-                                        {type : 'min', name: '最小值'}
-                                    ]
-                                },
-                                markLine : {
-                                    data : [
-                                        {type : 'average', name: '平均值'}
-                                    ]
-                                }
-                            },
-                            {
-                                name:'销售额',
-                                type:'bar',
-                                barWidth : 16,
-                                data:[8868, 7680, 7380, 8870, 9800, 11200,8750, 9860, 11008, 8790,6400,5200,7200],
-                                markPoint : {
-                                    data : [
-                                        {type : 'max', name: '最大值'},
-                                        {type : 'min', name: '最小值'}
-                                    ]
-                                },
-                                markLine : {
-                                    data : [
-                                        {type : 'average', name : '平均值'}
-                                    ]
-                                }
-                            },
-                            {
-                                name:'试穿次数(次)',
-                                type:'line',
-                                stack: '总量',
-                                yAxisIndex: 1,
-                                data:[320, 302, 341, 374, 390, 450, 420,57,22,24,12]
-                            },
-                            {
-                                name:'试穿时长(秒)',
-                                type:'line',
-                                yAxisIndex: 1,
-                                data:[120, 132, 101, 134, 190, 230, 210,180,32,22,21]
-                            }
-                        ]
-                    };
-
-                    myChart.setOption(option);
+                    loadastry();
                 });
 			</script>
 		</div>

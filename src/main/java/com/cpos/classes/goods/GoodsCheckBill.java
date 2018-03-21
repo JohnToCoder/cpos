@@ -5,10 +5,19 @@ public class GoodsCheckBill {
     private String scbCode;
     private String scbType;
     private String scbCount;
+    private String storeCount;
     private String scbDiff;
     private String scbDes;
     private String gmtCreat;
     private String gmtModify;
+
+    public String getStoreCount() {
+        return storeCount;
+    }
+
+    public void setStoreCount(String storeCount) {
+        this.storeCount = storeCount;
+    }
 
     public String getShopCode() {
         return shopCode;

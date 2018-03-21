@@ -11,8 +11,16 @@ public class EmpInfo {
     private String storeName;
     private String storeAddr;
     private String storeTel;
+    private String storeType;
     private String gmtCreat;
 
+    public String getStoreType() {
+        return storeType;
+    }
+
+    public void setStoreType(String storeType) {
+        this.storeType = storeType;
+    }
 
     public String getEmpMail() {
         return empMail;

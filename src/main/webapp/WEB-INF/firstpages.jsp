@@ -13,7 +13,7 @@
 	<body>
 		<div class="box">
 			<div class="box-header with-border">
-				<h4 class="box-title">月度产量报表</h4>
+				<h4 class="box-title">月度销量报表</h4>
 
 				<div class="box-tools pull-right">
 					<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -37,7 +37,7 @@
 				<div class="row">
 					<div class="col-md-8">
 						<p class="text-center">
-							<strong>产量: 1 Jan, 2017 - 30 Dec, 2017</strong>
+							<strong>销量: 1 Jan, 2017 - 30 Dec, 2017</strong>
 						</p>
 
 						<div class="chart">

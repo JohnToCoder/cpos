@@ -33,7 +33,6 @@ function rowchangelistp(strsku,obj) {
         }
     });
 }
-
 function rowchangedisc(strsku,listp,obj){
     var inputcur = $(obj);
     var patrn = /^(1|0+(.[0-9]{2})?)$/;
@@ -59,6 +58,53 @@ function rowchangedisc(strsku,listp,obj){
         success:function(data){
             var strre = JSON.parse(data);
             loadtabsalesgeer();
+
+        }
+    });
+}
+function loadtabsalesbills(){
+    $.ajax({
+        type:'post',
+        url:'sales/getsalesbills?billno=&startdt=&enddt=',
+        success:function(result){
+            //alert(result);
+            var jsoOrder = JSON.parse(result);
+            $('#tabsalesbill').bootstrapTable("load", jsoOrder.data);
+        }
+    });
+}
+function doQuerySalesBills() {
+    var strbillno = $('#txbsalesbn').val();
+    var strstartdt = $('#sbnstartdt').val();
+    var strenddt = $('#sbnenddt').val();
+    if(strenddt<strstartdt){
+        $("#sbnenddt").attr('title',"结束时间不能小于开始时间").tooltip('fixTitle').tooltip('show');
+        return;
+    }
+    $.ajax({
+        type:'post',
+        url:'sales/getsalesbills?billno='+strbillno+'&startdt='+strstartdt+'&enddt='+strenddt,
+        success:function(result){
+            //alert(result);
+            var jsoOrder = JSON.parse(result);
+            $('#tabsalesbill').bootstrapTable("load", jsoOrder.data);
+        }
+    });
+}
+function loadstoresalesinfo(){
+    $.ajax({
+        type:'post',
+        url:'sales/getstoremothreport',
+        success:function(result){
+            //alert(result);
+            var jsoOrder = JSON.parse(result);
+            var ssdata = jsoOrder.data;
+            for(var i =0;i<ssdata.length;i++){
+                $("#sstotalprice").html(ssdata[i].ssTotalPrice);
+                $("#sstotalbill").html(ssdata[i].ssTotalBill);
+                $("#sstotalnum").html(ssdata[i].ssTotalNum);
+                $("#ssprocess").html(ssdata[i].ssProcess);
+            }
 
         }
     });
