@@ -60,7 +60,7 @@ function loadassales() {
                 }
             }
             var myChartassales = echarts.init(document.getElementById('assales'),'macarons');
-            var option = {
+            var optionassales = {
                 title : {
                     'text':'月度销售数量/销售额'
                 },
@@ -131,7 +131,7 @@ function loadassales() {
                     }
                 ]
             };
-            myChartassales.setOption(option);
+            myChartassales.setOption(optionassales);
             window.onresize = function(){
                 myChartassales.resize();
             }
@@ -214,7 +214,7 @@ function loadassalesstore() {
     var liststore = [];
     var listnum = [];
     var listprice = [];
-
+    var listlimit= [];
     $.ajax({
         type:'post',
         url:'analysis/getassalesstore',
@@ -226,6 +226,7 @@ function loadassalesstore() {
                     liststore.push(jsoOrder[i].gStyle);
                     listnum.push(parseInt(jsoOrder[i].gSalesNum));
                     listprice.push(parseFloat(jsoOrder[i].gSalesPrice));
+                    listlimit.push(2);
                 }
             }
             var myChartasstore = echarts.init(document.getElementById('assalesstore'),'macarons');
@@ -268,6 +269,7 @@ function loadassalesstore() {
                     {
                         type : 'value',
                         name : '数量',
+                        axisLine : {onZero: true},
                         axisLabel : {
                             formatter: '{value} '
                         }
@@ -297,6 +299,22 @@ function loadassalesstore() {
                         markLine : {
                             data : [{type : 'average', name : '平均值'}]
                         }
+                    }
+                    ,
+                    {
+                        name:'销售警戒线',
+                        type:'line',
+                        yAxisIndex: 1,
+                        symbol:'none',
+                        itemStyle: {
+                            normal: {
+                                color: "#c95959",
+                                lineStyle: {
+                                    color: "#c95959"
+                                }
+                            }
+                        },
+                        data:listlimit
                     }
                 ]
             };
@@ -343,6 +361,7 @@ function loadslcasstylestore() {
 function loadassalesstyle(){
     var liststyle = [];
     var listnum = [];
+    var listlimit = []
     var sdays = $("#slcasstyletime").val();
     var sstore =$("#slcasstylestore").val();
     $.ajax({
@@ -355,6 +374,7 @@ function loadassalesstyle(){
                 for(var i=0;i<jsoOrder.length;i++){
                     liststyle.push(jsoOrder[i].gStyle);
                     listnum.push(parseInt(jsoOrder[i].gSalesNum));
+                    listlimit.push(2);
                 }
                 var nu = jsoOrder.length;
                 $("#asstyletopname").html(jsoOrder[0].gStyle);
@@ -410,6 +430,21 @@ function loadassalesstyle(){
                         markLine : {
                             data : [{type : 'average', name: '平均值'}]
                         }
+                    }
+                    ,
+                    {
+                        name:'销售警戒线',
+                        type:'line',
+                        symbol:'none',
+                        itemStyle: {
+                            normal: {
+                                color: "#c95959",
+                                lineStyle: {
+                                    color: "#c95959"
+                                }
+                            }
+                        },
+                        data:listlimit
                     }
                 ]
             };
@@ -494,8 +529,6 @@ function loadasstyletop(){
         }
     });
 }
-function loadtabasstyletop() {
-}
 function loadasstylelast(){
     var liststyle = [];
     var listnums = [];
@@ -575,7 +608,7 @@ function loadasstylelast(){
         }
     });
 }
-function loadastry() {
+function loadastry(){
     var liststyle = [];
     var listtimes = [];
     var listaveraget = [];
@@ -619,8 +652,8 @@ function loadastry() {
             $("#attimemin").html(minstyle);
             $("#attimeminavg").html(mintim);
 
-            var myChart = echarts.init(document.getElementById('tryanalysis'),'macarons');
-            var option = {
+            var myChartan = echarts.init(document.getElementById('tryanalysis'),'macarons');
+            var optionan = {
                 title : {
                     'text':'各款试穿次数/试穿时长'
                 },
@@ -691,9 +724,9 @@ function loadastry() {
                     }
                 ]
             };
-            myChart.setOption(option);
+            myChartan.setOption(optionan);
             window.onresize = function(){
-                myChart.resize();
+                myChartan.resize();
             }
         }
     });
@@ -720,8 +753,8 @@ function loadastrysales(){
                     listprice.push(parseFloat(jsoOrder[i].gSalesPrice));
                 }
             }
-            var myChart = echarts.init(document.getElementById('trysalesanalysis'), 'macarons');
-            var option = {
+            var myChartss = echarts.init(document.getElementById('trysalesanalysis'), 'macarons');
+            var optionss = {
                 title : {
                     'text':'各款销量试穿比 销量/试穿次数'
                 },
@@ -788,9 +821,9 @@ function loadastrysales(){
                 ]
             };
 
-            myChart.setOption(option);
+            myChartss.setOption(optionss);
             window.onresize = function(){
-                myChart.resize();
+                myChartss.resize();
             }
         }
     });
@@ -874,6 +907,8 @@ function loadattimes(){
 }
 function loadasstylestore(){
     var sdays = $("#slcasst").val();
+    var listname = [];
+    var listnum = [];
     $.ajax({
         type:'post',
         url:'analysis/getasstylestoretop?sdays='+sdays,
@@ -881,15 +916,97 @@ function loadasstylestore(){
             //alert(result);
             var jsoOrder = JSON.parse(result);
             $('#tabasstylestoretop').bootstrapTable("load", jsoOrder);
+
+            if (jsoOrder.length > 0) {
+                for (var i = 0; i < jsoOrder.length; i++) {
+                    listname.push(jsoOrder[i].style);
+                    listname.push(jsoOrder[i].topStoreName);
+                    listname.push(jsoOrder[i].lastStoerName);
+                    listnum.push(0);
+                    listnum.push(parseInt(jsoOrder[i].topStoreSales));
+                    listnum.push(parseInt(jsoOrder[i].lastStoreSales));
+                }
+            }
+            var myChartassst = echarts.init(document.getElementById('asstylestoretop'), 'macarons');
+            var optionassst = {
+                title : {
+                    'text':'Top 5款销量最高和销量最低门店对比'
+                },
+                tooltip: {
+                    trigger: 'axis'
+                },
+                toolbox: {
+                    show: true,
+                    feature: {
+                        mark: {show: true},
+                        dataView: {show: true, readOnly: false},
+                        magicType: {show: true, type: ['line', 'bar']},
+                        restore: {show: true},
+                        saveAsImage: {show: true}
+                    }
+                },
+                calculable: true,
+                legend: {
+                    data: ['销量']
+                },
+                xAxis: [
+                    {
+                        type: 'category',
+                        data: listname,
+                        axisLabel: {
+                            interval:0,
+                            rotate:40
+                        }
+                    }
+                ],
+                yAxis: [
+                    {
+                        type: 'value',
+                        name: '数量',
+                        axisLabel: {
+                            formatter: '{value} n'
+                        }
+                    }
+
+                ],
+                series: [
+                    {
+                        name: '销量',
+                        type: 'bar',
+
+                        data: listnum,
+                        barGap:'1%',
+                        itemStyle: {
+                            //通常情况下：
+                            normal:{
+                                color: function (params){
+                                    var colorList = ['#3397c9','#f39646','#e02222'];
+                                    for(var i =0;i<15;i=i+3) {
+                                        if (params.dataIndex == i+1) {
+                                            return colorList[0];
+                                        } else if (params.dataIndex  == i+2) {
+                                            return colorList[1];
+                                        }
+                                    }
+                                }
+                            },
+                            //鼠标悬停时：
+                            emphasis: {
+                                shadowBlur: 10,
+                                shadowOffsetX: 0,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        },
+
+                    }
+                ]
+            };
+
+            myChartassst.setOption(optionassst);
+            window.onresize = function(){
+                myChartassst.resize();
+            }
         }
     });
-    $.ajax({
-        type:'post',
-        url:'analysis/getasstylestorelast?sdays='+sdays,
-        success:function(result){
-            //alert(result);
-            var jsoOrder2 = JSON.parse(result);
-            $('#tabasstylestorelast').bootstrapTable("load", jsoOrder2);
-        }
-    });
+
 }

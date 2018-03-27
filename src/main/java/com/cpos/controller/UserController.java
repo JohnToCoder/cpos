@@ -105,8 +105,8 @@ public class UserController {
         String strAppType = request.getParameter("apptype");
         String strVersionCode = request.getParameter("versioncode");
         String strAppMessages = request.getParameter("appmessages");
-        //String path ="/usr/tomcat/tomcat8/webapps/updateapp";
-        String path = "/Users/john/Desktop/";
+        String path ="/usr/tomcat/tomcat8/webapps/updateapp";
+       // String path = "/Users/john/Desktop/";
         String fileName = file.getOriginalFilename();
         File targetFile = new File(path,fileName);
         String appurl = "http://www.echitec.com/updateapp/"+fileName;
